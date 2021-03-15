@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.llwebservice.app</package>
+    <name>CT_LL_CallVoucherLog</name>
+    <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].alias</alias>
+    <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK>com.kingdee.eas.custom.llwebservice.CallVoucherLog</bizUnitPK>
+    <columns>
+        <column>
+            <name>FLocalNumber</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLocalNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLocalNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>FReadTime</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FReadTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FReadTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FResultDesc</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FResultDesc].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FResultDesc].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>2000</length>
+            <scale>0</scale>
+            <precision>2000</precision>
+        </column>
+        <column>
+            <name>FLocalId</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLocalId].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLocalId].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FBizId</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizId].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizId].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>FBizNumber</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>FResult</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FResult].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FResult].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLastUpdateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FJson</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FJson].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FJson].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NCLOB</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FCreatorID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FDataType</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FDataType].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FDataType].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FBizName</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FGroup</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FGroup].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FGroup].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FParent</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FParent].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FParent].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_LL_CallVLIDe16</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_LL_LLCVLCrtrf1</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCreatorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调用凭证接口日志" />
+            <lang locale="zh_TW" value="系統集成平臺" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务数据ID" />
+            <lang locale="zh_TW" value="業務數據ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务数据ID" />
+            <lang locale="zh_TW" value="業務數據ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务数据编码" />
+            <lang locale="zh_TW" value="業務數據編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FBizNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务编码" />
+            <lang locale="zh_TW" value="業務編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FCreatorID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单人" />
+            <lang locale="zh_TW" value="制單人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FCreatorID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单人" />
+            <lang locale="zh_TW" value="制單人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FDataType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_TW" value="數據類型" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FDataType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_TW" value="數據類型" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FGroup].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分组" />
+            <lang locale="zh_TW" value="分組" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FGroup].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分组" />
+            <lang locale="zh_TW" value="分組" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FJson].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务数据" />
+            <lang locale="zh_TW" value="業務數據" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FJson].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="更新时间" />
+            <lang locale="zh_TW" value="更新時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLastUpdateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="更新时间" />
+            <lang locale="zh_TW" value="更新時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLocalId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务单据ID" />
+            <lang locale="zh_TW" value="財務單據ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLocalId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务单据ID" />
+            <lang locale="zh_TW" value="財務單據ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLocalNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务单据编码" />
+            <lang locale="zh_TW" value="財務單據編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FLocalNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务单据编码" />
+            <lang locale="zh_TW" value="財務單據編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FParent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父级" />
+            <lang locale="zh_TW" value="父級" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FParent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父级" />
+            <lang locale="zh_TW" value="父級" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FReadTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="读取时间" />
+            <lang locale="zh_TW" value="讀取時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FReadTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="读取时间" />
+            <lang locale="zh_TW" value="讀取時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FResultDesc].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结果描述" />
+            <lang locale="zh_TW" value="結果描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FResultDesc].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结果描述" />
+            <lang locale="zh_TW" value="結果描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FResult].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步结果" />
+            <lang locale="zh_TW" value="同步結果" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].columns.column[FResult].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步结果" />
+            <lang locale="zh_TW" value="同步結果" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_CallVoucherLog].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+        </rs>
+    </resource>
+</dataTable>
+

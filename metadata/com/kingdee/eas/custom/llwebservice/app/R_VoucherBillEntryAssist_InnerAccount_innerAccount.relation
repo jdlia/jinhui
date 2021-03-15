@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.llwebservice.app</package>
+    <name>R_VoucherBillEntryAssist_InnerAccount_innerAccount</name>
+    <alias>relationship[com.kingdee.eas.custom.llwebservice.app.R_VoucherBillEntryAssist_InnerAccount_innerAccount].alias</alias>
+    <description>relationship[com.kingdee.eas.custom.llwebservice.app.R_VoucherBillEntryAssist_InnerAccount_innerAccount].description</description>
+    <userDefined>true</userDefined>
+    <type>Association</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+        <key name="name" value="VoucherBillEntryAssist" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.fm.fs.app" />
+        <key name="name" value="InnerAccount" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.custom.llwebservice.app.R_VoucherBillEntryAssist_InnerAccount_innerAccount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.custom.llwebservice.app.R_VoucherBillEntryAssist_InnerAccount_innerAccount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</relationship>
+

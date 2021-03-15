@@ -1,0 +1,2873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizFieldTemplateSet xmlns="com.kingdee.bos.metadata">
+    <package />
+    <name>BizFieldTemplateSet</name>
+    <alias>bizFieldTemplateSet[.BizFieldTemplateSet].alias</alias>
+    <description>bizFieldTemplateSet[.BizFieldTemplateSet].description</description>
+    <userDefined>false</userDefined>
+    <fields>
+        <bizField>
+            <name>FICompany</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].description</description>
+            <columnName />
+            <propertyName />
+            <queryFieldName />
+            <controlName />
+            <listItemName />
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.org.app.CompanyOrgUnit</dataSourcePK>
+            <required>true</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>false</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].bizFieldViewdescription</description>
+                <classType />
+                <left>0</left>
+                <top>0</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].bizFieldView_displayText</_displayText>
+                <visible>false</visible>
+                <listVisible>false</listVisible>
+                <enable>false</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>false</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.org.app.CompanyOrgUnitQuery4AsstAcct</f7QueryPK>
+                <labelLocation />
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>adminOrgUnit</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].description</description>
+            <columnName />
+            <propertyName />
+            <queryFieldName />
+            <controlName />
+            <listItemName />
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.org.app.AdminOrgUnit</dataSourcePK>
+            <required>true</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>false</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].bizFieldViewdescription</description>
+                <classType />
+                <left>0</left>
+                <top>0</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].bizFieldView_displayText</_displayText>
+                <visible>false</visible>
+                <listVisible>false</listVisible>
+                <enable>false</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>false</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.org.app.AdminItemQuery</f7QueryPK>
+                <labelLocation />
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>purchaseOrg</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].description</description>
+            <columnName />
+            <propertyName />
+            <queryFieldName />
+            <controlName />
+            <listItemName />
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.org.app.PurchaseOrgUnit</dataSourcePK>
+            <required>true</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>false</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].bizFieldViewdescription</description>
+                <classType />
+                <left>0</left>
+                <top>0</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].bizFieldView_displayText</_displayText>
+                <visible>false</visible>
+                <listVisible>false</listVisible>
+                <enable>false</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>false</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.org.app.PurchaseItemQuery</f7QueryPK>
+                <labelLocation />
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>saleOrgUnit</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].description</description>
+            <columnName />
+            <propertyName />
+            <queryFieldName />
+            <controlName />
+            <listItemName />
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.org.app.SaleOrgUnit</dataSourcePK>
+            <required>true</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>false</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].bizFieldViewdescription</description>
+                <classType />
+                <left>0</left>
+                <top>0</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].bizFieldView_displayText</_displayText>
+                <visible>false</visible>
+                <listVisible>false</listVisible>
+                <enable>false</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>false</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.org.app.SaleItemQuery</f7QueryPK>
+                <labelLocation />
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>storageOrgUnit</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].description</description>
+            <columnName />
+            <propertyName />
+            <queryFieldName />
+            <controlName />
+            <listItemName />
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.org.app.StorageOrgUnit</dataSourcePK>
+            <required>true</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>false</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].bizFieldViewdescription</description>
+                <classType />
+                <left>0</left>
+                <top>0</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].bizFieldView_displayText</_displayText>
+                <visible>false</visible>
+                <listVisible>false</listVisible>
+                <enable>false</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>false</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.org.app.StorageItemQuery</f7QueryPK>
+                <labelLocation />
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>HROrgUnit</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].description</description>
+            <columnName />
+            <propertyName />
+            <queryFieldName />
+            <controlName />
+            <listItemName />
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.org.app.HROrgUnit</dataSourcePK>
+            <required>true</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>false</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].bizFieldViewdescription</description>
+                <classType />
+                <left>0</left>
+                <top>0</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].bizFieldView_displayText</_displayText>
+                <visible>false</visible>
+                <listVisible>false</listVisible>
+                <enable>false</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>false</hasLabel>
+                <f7QueryPK />
+                <labelLocation />
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>ctrlUnit</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].description</description>
+            <columnName />
+            <propertyName />
+            <queryFieldName />
+            <controlName />
+            <listItemName />
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.org.app.CtrlUnit</dataSourcePK>
+            <required>true</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>false</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].bizFieldViewdescription</description>
+                <classType />
+                <left>0</left>
+                <top>0</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].bizFieldView_displayText</_displayText>
+                <visible>false</visible>
+                <listVisible>false</listVisible>
+                <enable>false</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>false</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.org.app.F7CUQuery</f7QueryPK>
+                <labelLocation />
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0012</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].description</description>
+            <columnName>FBIMUDF0012ID</columnName>
+            <propertyName>BIMUDF0012</propertyName>
+            <queryFieldName>BIMUDF0012.name</queryFieldName>
+            <controlName>prmtBIMUDF0012</controlName>
+            <listItemName>BIMUDF0012.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.master.material.app.Material</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].bizFieldViewdescription</description>
+                <classType />
+                <left>29</left>
+                <top>5</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.master.material.app.F7MaterialBaseInfoQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0013</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].description</description>
+            <columnName>FBIMUDF0013ID</columnName>
+            <propertyName>BIMUDF0013</propertyName>
+            <queryFieldName>BIMUDF0013.number</queryFieldName>
+            <controlName>prmtBIMUDF0013</controlName>
+            <listItemName>BIMUDF0013.number</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.master.material.app.Material</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>number</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].bizFieldViewdescription</description>
+                <classType />
+                <left>28</left>
+                <top>28</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.master.material.app.F7MaterialBaseInfoQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0015</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].description</description>
+            <columnName>FBIMUDF0015ID</columnName>
+            <propertyName>BIMUDF0015</propertyName>
+            <queryFieldName>BIMUDF0015.name</queryFieldName>
+            <controlName>prmtBIMUDF0015</controlName>
+            <listItemName>BIMUDF0015.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.master.cssp.app.Customer</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].bizFieldViewdescription</description>
+                <classType />
+                <left>29</left>
+                <top>48</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.master.cssp.app.CustomerInfoQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0016</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].description</description>
+            <columnName>FBIMUDF0016ID</columnName>
+            <propertyName>BIMUDF0016</propertyName>
+            <queryFieldName>BIMUDF0016.name</queryFieldName>
+            <controlName>prmtBIMUDF0016</controlName>
+            <listItemName>BIMUDF0016.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.master.cssp.app.Supplier</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].bizFieldViewdescription</description>
+                <classType />
+                <left>31</left>
+                <top>70</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.master.cssp.app.F7SupplierDefaultQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0017</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].description</description>
+            <columnName>FBIMUDF0017ID</columnName>
+            <propertyName>BIMUDF0017</propertyName>
+            <queryFieldName>BIMUDF0017.longName</queryFieldName>
+            <controlName>prmtBIMUDF0017</controlName>
+            <listItemName>BIMUDF0017.longName</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.master.account.app.AccountView</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>longName</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].bizFieldViewdescription</description>
+                <classType />
+                <left>30</left>
+                <top>91</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.master.account.app.F7AccountViewQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0018</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].description</description>
+            <columnName>FBIMUDF0018ID</columnName>
+            <propertyName>BIMUDF0018</propertyName>
+            <queryFieldName>BIMUDF0018.name</queryFieldName>
+            <controlName>prmtBIMUDF0018</controlName>
+            <listItemName>BIMUDF0018.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.person.app.Person</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].bizFieldViewdescription</description>
+                <classType />
+                <left>34</left>
+                <top>115</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.person.app.PersonQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0020</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].description</description>
+            <columnName>FBIMUDF0020ID</columnName>
+            <propertyName>BIMUDF0020</propertyName>
+            <queryFieldName>BIMUDF0020.name</queryFieldName>
+            <controlName>prmtBIMUDF0020</controlName>
+            <listItemName>BIMUDF0020.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.scm.common.app.BillType</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].bizFieldViewdescription</description>
+                <classType />
+                <left>22</left>
+                <top>5</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.scm.common.app.F7BillTypeQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0021</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].description</description>
+            <columnName>FBIMUDF0021ID</columnName>
+            <propertyName>BIMUDF0021</propertyName>
+            <queryFieldName>BIMUDF0021.name</queryFieldName>
+            <controlName>prmtBIMUDF0021</controlName>
+            <listItemName>BIMUDF0021.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.scm.common.app.BizType</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].bizFieldViewdescription</description>
+                <classType />
+                <left>22</left>
+                <top>27</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.scm.common.app.F7BizTypeQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0022</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].description</description>
+            <columnName>FBIMUDF0022ID</columnName>
+            <propertyName>BIMUDF0022</propertyName>
+            <queryFieldName>BIMUDF0022.name</queryFieldName>
+            <controlName>prmtBIMUDF0022</controlName>
+            <listItemName>BIMUDF0022.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.scm.common.app.DeliveryType</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].bizFieldViewdescription</description>
+                <classType />
+                <left>22</left>
+                <top>49</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.scm.common.app.DeliveryType</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0023</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].description</description>
+            <columnName>FBIMUDF0023ID</columnName>
+            <propertyName>BIMUDF0023</propertyName>
+            <queryFieldName>BIMUDF0023.name</queryFieldName>
+            <controlName>prmtBIMUDF0023</controlName>
+            <listItemName>BIMUDF0023.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.scm.common.app.ExpenseType</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].bizFieldViewdescription</description>
+                <classType />
+                <left>21</left>
+                <top>70</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK />
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0024</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].description</description>
+            <columnName>FBIMUDF0024ID</columnName>
+            <propertyName>BIMUDF0024</propertyName>
+            <queryFieldName>BIMUDF0024.name</queryFieldName>
+            <controlName>prmtBIMUDF0024</controlName>
+            <listItemName>BIMUDF0024.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.scm.common.app.TransactionType</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].bizFieldViewdescription</description>
+                <classType />
+                <left>24</left>
+                <top>91</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.scm.common.app.F7TransactionTypeDefaultQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0025</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].description</description>
+            <columnName>FBIMUDF0025ID</columnName>
+            <propertyName>BIMUDF0025</propertyName>
+            <queryFieldName>BIMUDF0025.name</queryFieldName>
+            <controlName>prmtBIMUDF0025</controlName>
+            <listItemName>BIMUDF0025.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.scm.im.inv.app.Location</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].bizFieldViewdescription</description>
+                <classType />
+                <left>26</left>
+                <top>113</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.scm.im.inv.app.F7LocationQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0026</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].description</description>
+            <columnName>FBIMUDF0026ID</columnName>
+            <propertyName>BIMUDF0026</propertyName>
+            <queryFieldName>BIMUDF0026.name</queryFieldName>
+            <controlName>prmtBIMUDF0026</controlName>
+            <listItemName>BIMUDF0026.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.scm.im.inv.app.Warehouse</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].bizFieldViewdescription</description>
+                <classType />
+                <left>23</left>
+                <top>134</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.scm.im.inv.app.F7AllWarehouseQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0033</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].description</description>
+            <columnName>FBIMUDF0033ID</columnName>
+            <propertyName>BIMUDF0033</propertyName>
+            <queryFieldName>BIMUDF0033.name</queryFieldName>
+            <controlName>prmtBIMUDF0033</controlName>
+            <listItemName>BIMUDF0033.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.assistant.app.CostObjectGroup</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].bizFieldViewdescription</description>
+                <classType />
+                <left>77</left>
+                <top>6</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.assistant.app.F7CostObjectGroupQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0032</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].description</description>
+            <columnName>FBIMUDF0032ID</columnName>
+            <propertyName>BIMUDF0032</propertyName>
+            <queryFieldName>BIMUDF0032.name</queryFieldName>
+            <controlName>prmtBIMUDF0032</controlName>
+            <listItemName>BIMUDF0032.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.assistant.app.CostObject</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].bizFieldViewdescription</description>
+                <classType />
+                <left>81</left>
+                <top>30</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.assistant.app.F7CostObjectQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0031</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].description</description>
+            <columnName>FBIMUDF0031ID</columnName>
+            <propertyName>BIMUDF0031</propertyName>
+            <queryFieldName>BIMUDF0031.name</queryFieldName>
+            <controlName>prmtBIMUDF0031</controlName>
+            <listItemName>BIMUDF0031.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.assistant.app.Bank</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].bizFieldViewdescription</description>
+                <classType />
+                <left>91</left>
+                <top>56</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.assistant.app.F7BankQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0028</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].description</description>
+            <columnName>FBIMUDF0028ID</columnName>
+            <propertyName>BIMUDF0028</propertyName>
+            <queryFieldName>BIMUDF0028.name</queryFieldName>
+            <controlName>prmtBIMUDF0028</controlName>
+            <listItemName>BIMUDF0028.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.assistant.app.Currency</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].bizFieldViewdescription</description>
+                <classType />
+                <left>86</left>
+                <top>80</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.assistant.app.CurrencyQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0029</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].description</description>
+            <columnName>FBIMUDF0029ID</columnName>
+            <propertyName>BIMUDF0029</propertyName>
+            <queryFieldName>BIMUDF0029.name</queryFieldName>
+            <controlName>prmtBIMUDF0029</controlName>
+            <listItemName>BIMUDF0029.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.assistant.app.MeasureUnitGroup</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].bizFieldViewdescription</description>
+                <classType />
+                <left>87</left>
+                <top>103</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK />
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0030</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].description</description>
+            <columnName>FBIMUDF0030ID</columnName>
+            <propertyName>BIMUDF0030</propertyName>
+            <queryFieldName>BIMUDF0030.name</queryFieldName>
+            <controlName>prmtBIMUDF0030</controlName>
+            <listItemName>BIMUDF0030.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.assistant.app.MeasureUnit</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].bizFieldViewdescription</description>
+                <classType />
+                <left>87</left>
+                <top>128</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.assistant.app.F7MeasureUnitQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0035</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].description</description>
+            <columnName>FBIMUDF0035ID</columnName>
+            <propertyName>BIMUDF0035</propertyName>
+            <queryFieldName>BIMUDF0035.name</queryFieldName>
+            <controlName>prmtBIMUDF0035</controlName>
+            <listItemName>BIMUDF0035.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.assistant.app.ExchangeRate</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].bizFieldViewdescription</description>
+                <classType />
+                <left>368</left>
+                <top>88</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.assistant.app.ExchangeRateQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0034</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].description</description>
+            <columnName>FBIMUDF0034ID</columnName>
+            <propertyName>BIMUDF0034</propertyName>
+            <queryFieldName>BIMUDF0034.name</queryFieldName>
+            <controlName>prmtBIMUDF0034</controlName>
+            <listItemName>BIMUDF0034.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.assistant.app.PaymentType</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].bizFieldViewdescription</description>
+                <classType />
+                <left>366</left>
+                <top>109</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.assistant.app.PaymentTypeQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>BIMUDF0036</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].description</description>
+            <columnName>FBIMUDF0036ID</columnName>
+            <propertyName>BIMUDF0036</propertyName>
+            <queryFieldName>BIMUDF0036.name</queryFieldName>
+            <controlName>prmtBIMUDF0036</controlName>
+            <listItemName>BIMUDF0036.name</listItemName>
+            <bizDataType>OBJECT</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType>BASEDATA</dataSourceType>
+            <precision>0</precision>
+            <scale>0</scale>
+            <length>80</length>
+            <persistence>true</persistence>
+            <dataSourcePK>com.kingdee.eas.basedata.assistant.app.SettlementType</dataSourcePK>
+            <required>false</required>
+            <requiredPrompt />
+            <dataField>name</dataField>
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].bizFieldViewdescription</description>
+                <classType />
+                <left>367</left>
+                <top>136</top>
+                <height>19</height>
+                <width>270</width>
+                <labelWidth>100</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK>com.kingdee.eas.basedata.assistant.app.SettlementTypeQuery</f7QueryPK>
+                <labelLocation>7</labelLocation>
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+        <bizField>
+            <name>qty_1</name>
+            <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].alias</alias>
+            <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].description</description>
+            <columnName>CFQty_1</columnName>
+            <propertyName>qty_1</propertyName>
+            <queryFieldName />
+            <controlName>qty_1</controlName>
+            <listItemName />
+            <bizDataType>QUANTITY</bizDataType>
+            <genControl>true</genControl>
+            <dataSourceType />
+            <precision>28</precision>
+            <scale>10</scale>
+            <length>28</length>
+            <persistence>true</persistence>
+            <dataSourcePK />
+            <required>false</required>
+            <requiredPrompt />
+            <dataField />
+            <enumTypePK />
+            <defaultValue />
+            <enableFieldPermission>false</enableFieldPermission>
+            <designVisible>false</designVisible>
+            <isInherited>false</isInherited>
+            <hasBindData>true</hasBindData>
+            <bizFieldView>
+                <name />
+                <alias>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].bizFieldViewalias</alias>
+                <description>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].bizFieldViewdescription</description>
+                <classType />
+                <left>0</left>
+                <top>0</top>
+                <height>20</height>
+                <width>-1</width>
+                <labelWidth>0</labelWidth>
+                <_displayText>bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].bizFieldView_displayText</_displayText>
+                <visible>true</visible>
+                <listVisible>true</listVisible>
+                <enable>true</enable>
+                <fontString />
+                <format />
+                <pageIndex>0</pageIndex>
+                <listIndex>0</listIndex>
+                <hasLabel>true</hasLabel>
+                <f7QueryPK />
+                <labelLocation />
+                <decimalLength>0</decimalLength>
+            </bizFieldView>
+        </bizField>
+    </fields>
+    <resource>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].extendedProperty.GroupID">
+            <lang locale="en_US" value="主数据" />
+            <lang locale="zh_CN" value="主数据" />
+            <lang locale="zh_TW" value="主数据" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0012].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料编码" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料编码" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料编码" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].extendedProperty.GroupID">
+            <lang locale="en_US" value="主数据" />
+            <lang locale="zh_CN" value="主数据" />
+            <lang locale="zh_TW" value="主数据" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0013].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="客户" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="客户" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="客户" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].extendedProperty.GroupID">
+            <lang locale="en_US" value="主数据" />
+            <lang locale="zh_CN" value="主数据" />
+            <lang locale="zh_TW" value="主数据" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0015].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].extendedProperty.GroupID">
+            <lang locale="en_US" value="主数据" />
+            <lang locale="zh_CN" value="主数据" />
+            <lang locale="zh_TW" value="主数据" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0016].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="科目" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="科目" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="科目" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].extendedProperty.GroupID">
+            <lang locale="en_US" value="主数据" />
+            <lang locale="zh_CN" value="主数据" />
+            <lang locale="zh_TW" value="主数据" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0017].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].extendedProperty.GroupID">
+            <lang locale="en_US" value="主数据" />
+            <lang locale="zh_CN" value="主数据" />
+            <lang locale="zh_TW" value="主数据" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0018].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].extendedProperty.GroupID">
+            <lang locale="en_US" value="供应链" />
+            <lang locale="zh_CN" value="供应链" />
+            <lang locale="zh_TW" value="供应链" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0020].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].extendedProperty.GroupID">
+            <lang locale="en_US" value="供应链" />
+            <lang locale="zh_CN" value="供应链" />
+            <lang locale="zh_TW" value="供应链" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0021].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="交货类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="交货类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="交货类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].extendedProperty.GroupID">
+            <lang locale="en_US" value="供应链" />
+            <lang locale="zh_CN" value="供应链" />
+            <lang locale="zh_TW" value="供应链" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0022].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].extendedProperty.GroupID">
+            <lang locale="en_US" value="供应链" />
+            <lang locale="zh_CN" value="供应链" />
+            <lang locale="zh_TW" value="供应链" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0023].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="事务类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="事务类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="事务类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].extendedProperty.GroupID">
+            <lang locale="en_US" value="供应链" />
+            <lang locale="zh_CN" value="供应链" />
+            <lang locale="zh_TW" value="供应链" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0024].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库位" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库位" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库位" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].extendedProperty.GroupID">
+            <lang locale="en_US" value="供应链" />
+            <lang locale="zh_CN" value="供应链" />
+            <lang locale="zh_TW" value="供应链" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0025].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="仓库" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="仓库" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="仓库" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].extendedProperty.GroupID">
+            <lang locale="en_US" value="供应链" />
+            <lang locale="zh_CN" value="供应链" />
+            <lang locale="zh_TW" value="供应链" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0026].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].extendedProperty.GroupID">
+            <lang locale="en_US" value="辅助属性" />
+            <lang locale="zh_CN" value="辅助属性" />
+            <lang locale="zh_TW" value="辅助属性" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0028].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计量单位组" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计量单位组" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计量单位组" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].extendedProperty.GroupID">
+            <lang locale="en_US" value="辅助属性" />
+            <lang locale="zh_CN" value="辅助属性" />
+            <lang locale="zh_TW" value="辅助属性" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0029].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计量单位" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计量单位" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计量单位" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].extendedProperty.GroupID">
+            <lang locale="en_US" value="辅助属性" />
+            <lang locale="zh_CN" value="辅助属性" />
+            <lang locale="zh_TW" value="辅助属性" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0030].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="银行" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="银行" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="银行" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].extendedProperty.GroupID">
+            <lang locale="en_US" value="辅助属性" />
+            <lang locale="zh_CN" value="辅助属性" />
+            <lang locale="zh_TW" value="辅助属性" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0031].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本对象" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本对象" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本对象" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].extendedProperty.GroupID">
+            <lang locale="en_US" value="辅助属性" />
+            <lang locale="zh_CN" value="辅助属性" />
+            <lang locale="zh_TW" value="辅助属性" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0032].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本对象分组" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本对象分组" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本对象分组" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].extendedProperty.GroupID">
+            <lang locale="en_US" value="辅助属性" />
+            <lang locale="zh_CN" value="辅助属性" />
+            <lang locale="zh_TW" value="辅助属性" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0033].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款方式" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款方式" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款方式" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].extendedProperty.GroupID">
+            <lang locale="en_US" value="辅助属性" />
+            <lang locale="zh_CN" value="辅助属性" />
+            <lang locale="zh_TW" value="辅助属性" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0034].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].extendedProperty.GroupID">
+            <lang locale="en_US" value="辅助属性" />
+            <lang locale="zh_CN" value="辅助属性" />
+            <lang locale="zh_TW" value="辅助属性" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0035].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结算方式" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结算方式" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结算方式" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].extendedProperty.GroupID">
+            <lang locale="en_US" value="辅助属性" />
+            <lang locale="zh_CN" value="辅助属性" />
+            <lang locale="zh_TW" value="辅助属性" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[BIMUDF0036].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[FICompany].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="HR组织" />
+            <lang locale="zh_TW" value="HR組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="HR组织" />
+            <lang locale="zh_TW" value="HR組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[HROrgUnit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="HR组织" />
+            <lang locale="zh_TW" value="HR組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="行政组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="行政组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="行政组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[adminOrgUnit].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="管理单元" />
+            <lang locale="zh_TW" value="管理單元" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="管理单元" />
+            <lang locale="zh_TW" value="管理單元" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[ctrlUnit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="管理单元" />
+            <lang locale="zh_TW" value="管理單元" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="采购组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="采购组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="采购组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[purchaseOrg].extendedProperty.required">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数量" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数量" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].extendedProperty.bizDataType">
+            <lang locale="en_US" value="QUANTITY" />
+            <lang locale="zh_CN" value="QUANTITY" />
+            <lang locale="zh_TW" value="QUANTITY" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[qty_1].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="销售组织" />
+            <lang locale="zh_TW" value="銷售組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="销售组织" />
+            <lang locale="zh_TW" value="銷售組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[saleOrgUnit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="销售组织" />
+            <lang locale="zh_TW" value="銷售組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库存组织" />
+            <lang locale="zh_TW" value="庫存組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].bizFieldView_displayText">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库存组织" />
+            <lang locale="zh_TW" value="庫存組織" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].bizFieldViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].bizFieldViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizFieldTemplateSet[.BizFieldTemplateSet].fields.bizField[storageOrgUnit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库存组织" />
+            <lang locale="zh_TW" value="庫存組織" />
+        </rs>
+    </resource>
+</bizFieldTemplateSet>
+

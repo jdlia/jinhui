@@ -1,0 +1,2349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.llwebservice.app</package>
+    <name>VoucherBillEntryCashflow</name>
+    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].description</description>
+    <userDefined>true</userDefined>
+    <bosType>06AC5260</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.llwebservice.VoucherBillEntryCashflow</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflowController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].description</description>
+            <innerID>68959c96-f3bb-4ca2-b5d5-576d99ba5dcb</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].description</description>
+            <innerID>0aa5987b-4dd1-40df-b905-ae9beac2b7fa</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].description</description>
+            <innerID>8b701e9f-1c70-4959-aee6-efd71877f690</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].description</description>
+            <innerID>8d637d79-da68-493e-85e8-717d242cf99c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].description</description>
+            <innerID>9da1c682-55a8-4950-8c16-eae2bbb1e63e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].description</description>
+            <innerID>3bd071e6-7799-43a7-a752-1586b37482e5</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].description</description>
+            <innerID>8ac592fd-7a41-4d9f-99c9-1558b7307c96</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].description</description>
+            <innerID>d09d1149-2daa-4b5d-827d-d4f1935ff333</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>update</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].description</description>
+            <innerID>e2fe6ea3-a947-434e-9b5f-78eaa4760092</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updatePartial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].description</description>
+            <innerID>157eb1ac-a6df-4e4d-ad96-a2535ec6d167</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updateBigObject</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].description</description>
+            <innerID>c1d746ad-d7fb-48fa-976f-079e0d228579</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].description</description>
+            <innerID>f764d224-d700-4ab0-9467-069cad23a498</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].description</description>
+            <innerID>f5875c87-a780-4ea3-ba42-85bfe085168c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].description</description>
+            <innerID>24f6f980-cf09-453c-bcc8-07f4993083a0</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].description</description>
+            <innerID>dbb0261d-b2f4-4132-a7fe-37abe9e05499</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>sorter</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[sorter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[sorter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SorterItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].description</description>
+            <innerID>fad828c7-bcd9-42fc-8df5-ea165dc7c440</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].description</description>
+            <innerID>555f3925-ede3-4dee-a891-c3b108c870ce</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].description</description>
+            <innerID>75eabd2f-1829-4cc9-93b9-18f38e77dc4d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].description</description>
+            <innerID>313d58d9-2e16-4dda-8b5d-6366f41b6e37</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].description</description>
+            <innerID>e9eb4356-5a80-4dc1-95f3-6f06f0ef1dcd</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].description</description>
+            <innerID>863a69ce-bb2d-47d2-9d27-0cac9e52f9eb</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>arrayPK</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[arrayPK].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[arrayPK].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK[]</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.llwebservice.VoucherBill</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillEntryBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+        <key name="name" value="CT_LL_VoucherBillEntryCashflow" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>entry</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[entry].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[entry].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="R_VoucherBillEntry_VoucherBillEntryCashflow_Cashflow" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>account</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FAccountID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="R_VoucherBillEntryCashflow_AccountView_account" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>currency</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FCurrencyID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="R_VoucherBillEntryCashflow_Currency_currency" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>entryDC</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fi.gl.EntryDC</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FEntryDC" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>oppAccount</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FOppAccountID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="R_VoucherBillEntryCashflow_AccountView_oppAccount" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>oppEntryDC</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fi.gl.EntryDC</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FOppEntryDC" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>itemFlag</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fi.gl.ItemFlag</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FItemFlag" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>primaryItem</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FPrimaryItemID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="R_VoucherBillEntryCashflow_CashFlowItem_primaryItem" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>primaryCoefficient</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPrimaryCoefficient" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>supplementaryItem</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FSupplementaryItem" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="R_VoucherBillEntryCashflow_CashFlowItem_supplementaryItem" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>supplementaryCoefficient</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSupplementaryCoefficient" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>originalAmount</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FOriginalAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>localAmount</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FLocalAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>reportingAmount</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FReportingAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>isSupItem</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FIsSupItem" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>type</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fi.gl.CashflowTypeEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FType" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>oppAccountSeq</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FOppAccountSeq" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="现金流量" />
+            <lang locale="zh_HK" value="現金流量" />
+            <lang locale="zh_TW" value="現金流量" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].defaultViewextendedProperty.genImplementCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].extendedProperty.genImplementCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[addnew].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[arrayPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[arrayPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[delete].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[exists].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[sorter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getPKList].parameters.parameter[sorter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updateBigObject].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[updatePartial].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].methods.method[update].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="科目" />
+            <lang locale="zh_HK" value="科目" />
+            <lang locale="zh_TW" value="科目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="科目" />
+            <lang locale="zh_HK" value="科目" />
+            <lang locale="zh_TW" value="科目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].extendedProperty.dataField">
+            <lang locale="en_US" value="longName" />
+            <lang locale="zh_CN" value="longName" />
+            <lang locale="zh_TW" value="longName" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[account].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="zh_HK" value="幣別" />
+            <lang locale="zh_TW" value="幣別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="zh_HK" value="幣別" />
+            <lang locale="zh_TW" value="幣別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[currency].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[entry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[entry].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方科目" />
+            <lang locale="zh_HK" value="對方科目" />
+            <lang locale="zh_TW" value="對方科目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方科目" />
+            <lang locale="zh_HK" value="對方科目" />
+            <lang locale="zh_TW" value="對方科目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].extendedProperty.dataField">
+            <lang locale="en_US" value="longName" />
+            <lang locale="zh_CN" value="longName" />
+            <lang locale="zh_TW" value="longName" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[oppAccount].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主表项目" />
+            <lang locale="zh_HK" value="主表項目" />
+            <lang locale="zh_TW" value="主表項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主表项目" />
+            <lang locale="zh_HK" value="主表項目" />
+            <lang locale="zh_TW" value="主表項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[primaryItem].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附表项目" />
+            <lang locale="zh_HK" value="附表項目" />
+            <lang locale="zh_TW" value="附表項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附表项目" />
+            <lang locale="zh_HK" value="附表項目" />
+            <lang locale="zh_TW" value="附表項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.linkProperty[supplementaryItem].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录方向" />
+            <lang locale="zh_HK" value="分錄方向" />
+            <lang locale="zh_TW" value="分錄方向" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="DEBIT" />
+            <lang locale="zh_HK" value="DEBIT" />
+            <lang locale="zh_TW" value="DEBIT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录方向" />
+            <lang locale="zh_HK" value="分錄方向" />
+            <lang locale="zh_TW" value="分錄方向" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.defaultValue">
+            <lang locale="en_US" value="DEBIT" />
+            <lang locale="zh_CN" value="DEBIT" />
+            <lang locale="zh_TW" value="DEBIT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[entryDC].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否附表补充指定" />
+            <lang locale="zh_HK" value="是否附表補充指定" />
+            <lang locale="zh_TW" value="是否附表補充指定" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否附表补充指定" />
+            <lang locale="zh_HK" value="是否附表補充指定" />
+            <lang locale="zh_TW" value="是否附表補充指定" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[isSupItem].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="现金流量项目标记" />
+            <lang locale="zh_HK" value="現金流量項目標記" />
+            <lang locale="zh_TW" value="現金流量項目標記" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="PRIMARY" />
+            <lang locale="zh_HK" value="PRIMARY" />
+            <lang locale="zh_TW" value="PRIMARY" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="现金流量项目标记" />
+            <lang locale="zh_HK" value="現金流量項目標記" />
+            <lang locale="zh_TW" value="現金流量項目標記" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.defaultValue">
+            <lang locale="en_US" value="PRIMARY" />
+            <lang locale="zh_CN" value="PRIMARY" />
+            <lang locale="zh_TW" value="PRIMARY" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[itemFlag].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本位币金额" />
+            <lang locale="zh_HK" value="本位幣金額" />
+            <lang locale="zh_TW" value="本位幣金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本位币金额" />
+            <lang locale="zh_HK" value="本位幣金額" />
+            <lang locale="zh_TW" value="本位幣金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[localAmount].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方科目分录号" />
+            <lang locale="zh_HK" value="對方科目分錄號" />
+            <lang locale="zh_TW" value="對方科目分錄號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方科目分录号" />
+            <lang locale="zh_HK" value="對方科目分錄號" />
+            <lang locale="zh_TW" value="對方科目分錄號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppAccountSeq].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方分录方向" />
+            <lang locale="zh_HK" value="對方分錄方向" />
+            <lang locale="zh_TW" value="對方分錄方向" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="DEBIT" />
+            <lang locale="zh_HK" value="DEBIT" />
+            <lang locale="zh_TW" value="DEBIT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方分录方向" />
+            <lang locale="zh_HK" value="對方分錄方向" />
+            <lang locale="zh_TW" value="對方分錄方向" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.defaultValue">
+            <lang locale="en_US" value="DEBIT" />
+            <lang locale="zh_CN" value="DEBIT" />
+            <lang locale="zh_TW" value="DEBIT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[oppEntryDC].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="原币金额" />
+            <lang locale="zh_HK" value="原幣金額" />
+            <lang locale="zh_TW" value="原幣金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="原币金额" />
+            <lang locale="zh_HK" value="原幣金額" />
+            <lang locale="zh_TW" value="原幣金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[originalAmount].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主表金额系数" />
+            <lang locale="zh_HK" value="主表金額係數" />
+            <lang locale="zh_TW" value="主表金額係數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主表金额系数" />
+            <lang locale="zh_HK" value="主表金額係數" />
+            <lang locale="zh_TW" value="主表金額係數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[primaryCoefficient].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报告币金额" />
+            <lang locale="zh_HK" value="報告幣金額" />
+            <lang locale="zh_TW" value="報告幣金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报告币金额" />
+            <lang locale="zh_HK" value="報告幣金額" />
+            <lang locale="zh_TW" value="報告幣金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[reportingAmount].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附表金额系数" />
+            <lang locale="zh_HK" value="附表金額係數" />
+            <lang locale="zh_TW" value="附表金額係數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附表金额系数" />
+            <lang locale="zh_HK" value="附表金額係數" />
+            <lang locale="zh_TW" value="附表金額係數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[supplementaryCoefficient].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性质" />
+            <lang locale="zh_HK" value="性質" />
+            <lang locale="zh_TW" value="性質" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_HK" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性质" />
+            <lang locale="zh_HK" value="性質" />
+            <lang locale="zh_TW" value="性質" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.defaultValue">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.VoucherBillEntryCashflow].properties.ownProperty[type].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

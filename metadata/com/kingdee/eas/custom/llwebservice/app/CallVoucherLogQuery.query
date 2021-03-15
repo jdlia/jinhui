@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.llwebservice.app</package>
+    <name>CallVoucherLogQuery</name>
+    <alias>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.custom.llwebservice.CallVoucherLog</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>CallVoucherLog</name>
+            <alias>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].subObjects.subEntity[CallVoucherLog].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLog" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <queryField>
+            <name>localNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[localNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>86475d6a-1026-4f0c-8f16-6043eb99e9ed</key>
+                    <parentUnit>
+                        <key name="name" value="localNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="localNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>readTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[readTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e4645980-27d4-40db-9d37-14ac609a2746</key>
+                    <parentUnit>
+                        <key name="name" value="readTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="readTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>resultDesc</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[resultDesc].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0a11d756-b270-4df3-947a-7fcd56520958</key>
+                    <parentUnit>
+                        <key name="name" value="resultDesc" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="resultDesc" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>localId</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[localId].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>114e62ee-04bb-4463-b2c7-86128a97a48e</key>
+                    <parentUnit>
+                        <key name="name" value="localId" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="localId" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizId</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizId].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>793ef7ea-0e1d-4b06-bcc0-9ebbd367a5a2</key>
+                    <parentUnit>
+                        <key name="name" value="bizId" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizId" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a3f233b3-6629-494f-b219-ee3d210e8021</key>
+                    <parentUnit>
+                        <key name="name" value="bizNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>02ab9da6-9ca4-4959-b881-5683637172bb</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>result</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[result].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b73fa708-8d1e-41f7-a2f3-99eaca3b5b42</key>
+                    <parentUnit>
+                        <key name="name" value="result" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="result" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>fc30151b-1f22-43e4-8728-fd9f8a25fb5b</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>418ab559-07a2-4346-b599-7e8dbb283f72</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>4f15c7fa-6d9e-4abd-a6f8-0d65c5120dbd</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.propertyUnit[4f15c7fa-6d9e-4abd-a6f8-0d65c5120dbd].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>63f53df0-ed10-4ae4-a025-7b1b519e1801</key>
+                    <parentUnit>
+                        <key name="name" value="4f15c7fa-6d9e-4abd-a6f8-0d65c5120dbd" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>451fe73e-53ee-4918-9fce-653ef4499eb3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.propertyUnit[451fe73e-53ee-4918-9fce-653ef4499eb3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>051d2148-da1c-4075-9d7d-894807c54f52</key>
+                    <parentUnit>
+                        <key name="name" value="451fe73e-53ee-4918-9fce-653ef4499eb3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>dataType</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[dataType].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>efd3528b-90c2-4d5f-8800-487fab309efb</key>
+                    <parentUnit>
+                        <key name="name" value="dataType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="dataType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4770f7f7-cc1a-4b87-8644-2ad4e4d9efbd</key>
+                    <parentUnit>
+                        <key name="name" value="bizName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>group</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[group].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>006bd3a4-3cc3-4bde-bbd5-83a0bb66d526</key>
+                    <parentUnit>
+                        <key name="name" value="group" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="group" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>parent</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[parent].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>26610aee-e2ea-48c8-bfb8-9aefdc72bc52</key>
+                    <parentUnit>
+                        <key name="name" value="parent" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CallVoucherLog" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+            <key name="name" value="CallVoucherLogQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>lastUpdateTime</propertyName>
+            <sortType>DESC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+        <querySorterItem>
+            <propertyName>dataType</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+        <querySorterItem>
+            <propertyName>bizNumber</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>dfc9d99b-f489-446c-8e9e-0ebb70ae17b0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="CallVoucherLog" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>6c7f40f4-0de0-4032-bf0a-29fd3b12982d</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="4f15c7fa-6d9e-4abd-a6f8-0d65c5120dbd" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="451fe73e-53ee-4918-9fce-653ef4499eb3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="dfc9d99b-f489-446c-8e9e-0ebb70ae17b0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLogQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调用凭证接口日志" />
+            <lang locale="zh_TW" value="系統集成平臺" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="系统集成平台" />
+            <lang locale="zh_CN" value="系统集成平台" />
+            <lang locale="zh_TW" value="系统集成平台" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.custom.llwebservice.client.LlwebserviceResource.CallVoucherLogQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.llwebservice.client.LlwebserviceResource.CallVoucherLogQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.llwebservice.client.LlwebserviceResource.CallVoucherLogQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="调用凭证接口日志" />
+            <lang locale="zh_CN" value="调用凭证接口日志" />
+            <lang locale="zh_TW" value="调用凭证接口日志" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].subObjects.subEntity[CallVoucherLog].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.propertyUnit[451fe73e-53ee-4918-9fce-653ef4499eb3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.propertyUnit[4f15c7fa-6d9e-4abd-a6f8-0d65c5120dbd].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizId].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务数据ID" />
+            <lang locale="zh_TW" value="業務數據ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizId].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizId].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务数据编码" />
+            <lang locale="zh_TW" value="業務數據編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[bizNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单人" />
+            <lang locale="zh_TW" value="制單人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[creator.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[creator.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[creator.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[dataType].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_TW" value="數據類型" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[dataType].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[dataType].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[group].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分组" />
+            <lang locale="zh_TW" value="分組" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[group].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[group].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="更新时间" />
+            <lang locale="zh_TW" value="更新時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[localId].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务单据ID" />
+            <lang locale="zh_TW" value="財務單據ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[localId].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[localId].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[localNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务单据编码" />
+            <lang locale="zh_TW" value="財務單據編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[localNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[localNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[parent].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父级" />
+            <lang locale="zh_TW" value="父級" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[parent].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[parent].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[readTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="读取时间" />
+            <lang locale="zh_TW" value="讀取時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[readTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[readTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[resultDesc].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结果描述" />
+            <lang locale="zh_TW" value="結果描述" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[resultDesc].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[resultDesc].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[result].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步结果" />
+            <lang locale="zh_TW" value="同步結果" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[result].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery].units.queryField[result].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

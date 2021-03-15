@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.llwebservice</package>
+    <name>CallVoucherLog</name>
+    <alias>bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.llwebservice.app.CallVoucherLog</entityPK>
+    <queryPK>com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK>com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction</editUIFunctionPK>
+    <listUIFunctionPK>com.kingdee.eas.custom.llwebservice.app.CallVoucherLogListUIFunction</listUIFunctionPK>
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>MCoreBillBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调用凭证接口日志" />
+            <lang locale="zh_HK" value="調用憑證介面日誌" />
+            <lang locale="zh_TW" value="調用憑證介面日誌" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.controllerBeanEx">
+            <lang locale="en_US" value="com.kingdee.eas.eai.app.EaiCenterControllerBeanEx" />
+            <lang locale="zh_CN" value="com.kingdee.eas.eai.app.EaiCenterControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.eai.app.EaiCenterControllerBeanEx" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.eai.app.EaiCenterQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.eai.app.EaiCenterQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.eai.app.EaiCenterQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.eai.client.EaiCenterEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.eai.client.EaiCenterEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.eai.client.EaiCenterEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.eai.client.EaiCenterListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.eai.client.EaiCenterListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.eai.client.EaiCenterListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="21" />
+            <lang locale="zh_CN" value="21" />
+            <lang locale="zh_TW" value="21" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.llwebservice.CallVoucherLog].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

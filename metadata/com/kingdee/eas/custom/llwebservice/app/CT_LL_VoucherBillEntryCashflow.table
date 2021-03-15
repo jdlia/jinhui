@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.llwebservice.app</package>
+    <name>CT_LL_VoucherBillEntryCashflow</name>
+    <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].alias</alias>
+    <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSeq</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSeq].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSeq].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FParentID</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FParentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FParentID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FFSeq0</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FFSeq0].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FFSeq0].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAccountID</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FAccountID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FAccountID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCurrencyID</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FCurrencyID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FCurrencyID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FEntryDC</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FEntryDC].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FEntryDC].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FOppAccountID</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppAccountID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppAccountID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FOppEntryDC</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppEntryDC].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppEntryDC].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FItemFlag</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FItemFlag].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FItemFlag].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FPrimaryItemID</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FPrimaryItemID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FPrimaryItemID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FPrimaryCoefficient</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FPrimaryCoefficient].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FPrimaryCoefficient].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>FSupplementaryItem</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSupplementaryItem].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSupplementaryItem].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSupplementaryCoefficient</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSupplementaryCoefficient].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSupplementaryCoefficient].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>FOriginalAmount</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOriginalAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOriginalAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FLocalAmount</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FLocalAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FLocalAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FReportingAmount</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FReportingAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FReportingAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FIsSupItem</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FIsSupItem].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FIsSupItem].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FType</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FType].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FType].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FOppAccountSeq</name>
+            <alias>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppAccountSeq].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppAccountSeq].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_LL_VxrBECID274</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType />
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_LL_LLVBECAcc27</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.master.account" />
+                <key name="name" value="T_BD_AccountView" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FAccountID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_LL_LLVBECCrn37</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_Currency" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCurrencyID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_LL_LLVBECOpA37</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.master.account" />
+                <key name="name" value="T_BD_AccountView" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FOppAccountID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_LL_LLVBECPrI37</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_CashFlowItem" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FPrimaryItemID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_LL_LLVBECSpl37</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_CashFlowItem" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FSupplementaryItem" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="现金流量" />
+            <lang locale="zh_HK" value="現金流量" />
+            <lang locale="zh_TW" value="現金流量" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FAccountID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="科目" />
+            <lang locale="zh_HK" value="科目" />
+            <lang locale="zh_TW" value="科目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FAccountID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="科目" />
+            <lang locale="zh_HK" value="科目" />
+            <lang locale="zh_TW" value="科目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FCurrencyID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="zh_HK" value="幣別" />
+            <lang locale="zh_TW" value="幣別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FCurrencyID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="zh_HK" value="幣別" />
+            <lang locale="zh_TW" value="幣別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FEntryDC].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录方向" />
+            <lang locale="zh_HK" value="分錄方向" />
+            <lang locale="zh_TW" value="分錄方向" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FEntryDC].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录方向" />
+            <lang locale="zh_HK" value="分錄方向" />
+            <lang locale="zh_TW" value="分錄方向" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FFSeq0].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FFSeq0].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FIsSupItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否附表补充指定" />
+            <lang locale="zh_HK" value="是否附表補充指定" />
+            <lang locale="zh_TW" value="是否附表補充指定" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FIsSupItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否附表补充指定" />
+            <lang locale="zh_HK" value="是否附表補充指定" />
+            <lang locale="zh_TW" value="是否附表補充指定" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FItemFlag].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="现金流量项目标记" />
+            <lang locale="zh_HK" value="現金流量項目標記" />
+            <lang locale="zh_TW" value="現金流量項目標記" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FItemFlag].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="现金流量项目标记" />
+            <lang locale="zh_HK" value="現金流量項目標記" />
+            <lang locale="zh_TW" value="現金流量項目標記" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FLocalAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本位币金额" />
+            <lang locale="zh_HK" value="本位幣金額" />
+            <lang locale="zh_TW" value="本位幣金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FLocalAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本位币金额" />
+            <lang locale="zh_HK" value="本位幣金額" />
+            <lang locale="zh_TW" value="本位幣金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppAccountID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方科目" />
+            <lang locale="zh_HK" value="對方科目" />
+            <lang locale="zh_TW" value="對方科目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppAccountID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方科目" />
+            <lang locale="zh_HK" value="對方科目" />
+            <lang locale="zh_TW" value="對方科目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppAccountSeq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方科目分录号" />
+            <lang locale="zh_HK" value="對方科目分錄號" />
+            <lang locale="zh_TW" value="對方科目分錄號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppAccountSeq].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方科目分录号" />
+            <lang locale="zh_HK" value="對方科目分錄號" />
+            <lang locale="zh_TW" value="對方科目分錄號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppEntryDC].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方分录方向" />
+            <lang locale="zh_HK" value="對方分錄方向" />
+            <lang locale="zh_TW" value="對方分錄方向" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOppEntryDC].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对方分录方向" />
+            <lang locale="zh_HK" value="對方分錄方向" />
+            <lang locale="zh_TW" value="對方分錄方向" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOriginalAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="原币金额" />
+            <lang locale="zh_HK" value="原幣金額" />
+            <lang locale="zh_TW" value="原幣金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FOriginalAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="原币金额" />
+            <lang locale="zh_HK" value="原幣金額" />
+            <lang locale="zh_TW" value="原幣金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FParentID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FParentID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FPrimaryCoefficient].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主表金额系数" />
+            <lang locale="zh_HK" value="主表金額係數" />
+            <lang locale="zh_TW" value="主表金額係數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FPrimaryCoefficient].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主表金额系数" />
+            <lang locale="zh_HK" value="主表金額係數" />
+            <lang locale="zh_TW" value="主表金額係數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FPrimaryItemID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主表项目" />
+            <lang locale="zh_HK" value="主表項目" />
+            <lang locale="zh_TW" value="主表項目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FPrimaryItemID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主表项目" />
+            <lang locale="zh_HK" value="主表項目" />
+            <lang locale="zh_TW" value="主表項目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FReportingAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报告币金额" />
+            <lang locale="zh_HK" value="報告幣金額" />
+            <lang locale="zh_TW" value="報告幣金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FReportingAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报告币金额" />
+            <lang locale="zh_HK" value="報告幣金額" />
+            <lang locale="zh_TW" value="報告幣金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSeq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSeq].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号（定义为序列属性即使用{seq}）" />
+            <lang locale="zh_HK" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+            <lang locale="zh_TW" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSupplementaryCoefficient].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附表金额系数" />
+            <lang locale="zh_HK" value="附表金額係數" />
+            <lang locale="zh_TW" value="附表金額係數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSupplementaryCoefficient].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附表金额系数" />
+            <lang locale="zh_HK" value="附表金額係數" />
+            <lang locale="zh_TW" value="附表金額係數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSupplementaryItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附表项目" />
+            <lang locale="zh_HK" value="附表項目" />
+            <lang locale="zh_TW" value="附表項目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FSupplementaryItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附表项目" />
+            <lang locale="zh_HK" value="附表項目" />
+            <lang locale="zh_TW" value="附表項目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性质" />
+            <lang locale="zh_HK" value="性質" />
+            <lang locale="zh_TW" value="性質" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].columns.column[FType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性质" />
+            <lang locale="zh_HK" value="性質" />
+            <lang locale="zh_TW" value="性質" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.llwebservice.app.CT_LL_VoucherBillEntryCashflow].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

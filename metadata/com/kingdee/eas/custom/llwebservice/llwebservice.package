@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.llwebservice</package>
+    <name>llwebservice</name>
+    <alias>package[com.kingdee.eas.custom.llwebservice.llwebservice].alias</alias>
+    <description>package[com.kingdee.eas.custom.llwebservice.llwebservice].description</description>
+    <basicCode>LL</basicCode>
+    <resource>
+        <rs key="package[com.kingdee.eas.custom.llwebservice.llwebservice].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="蓝凌接口" />
+            <lang locale="zh_HK" value="藍淩介面" />
+            <lang locale="zh_TW" value="藍淩介面" />
+        </rs>
+        <rs key="package[com.kingdee.eas.custom.llwebservice.llwebservice].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="package[com.kingdee.eas.custom.llwebservice.llwebservice].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</package>
+
