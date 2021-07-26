@@ -301,6 +301,26 @@ public abstract class AbstractCallVoucherLogControllerBean extends CoreBaseContr
         return null;
     }
 
+    public void audit(Context ctx, CallVoucherLogInfo model) throws BOSException
+    {
+        try {
+            ServiceContext svcCtx = createServiceContext(new MetaDataPK("5e196781-cc0f-4383-bc90-a89e4e244066"), new Object[]{ctx, model});
+            invokeServiceBefore(svcCtx);
+              if(!svcCtx.invokeBreak()) {
+            _audit(ctx, model);
+            }
+            invokeServiceAfter(svcCtx);
+        } catch (BOSException ex) {
+            throw ex;
+        } finally {
+            super.cleanUpServiceState();
+        }
+    }
+    protected void _audit(Context ctx, IObjectValue model) throws BOSException
+    {    	
+        return;
+    }
+
     public CoreBaseCollection getCollection (Context ctx) throws BOSException
     {
     	return (CoreBaseCollection)(getCallVoucherLogCollection(ctx).cast(CoreBaseCollection.class));

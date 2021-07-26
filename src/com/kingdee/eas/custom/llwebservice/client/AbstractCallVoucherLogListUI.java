@@ -49,6 +49,7 @@ public abstract class AbstractCallVoucherLogListUI extends com.kingdee.eas.frame
     protected com.kingdee.bos.ctrl.swing.KDWorkButton btnRunSyn;
     protected ActionTDPrint actionTDPrint = null;
     protected ActionTDPrintPreview actionTDPrintPreview = null;
+    protected ActionAudit actionAudit = null;
     public final static String STATUS_VIEW = "VIEW";
     /**
      * output class constructor
@@ -125,6 +126,16 @@ public abstract class AbstractCallVoucherLogListUI extends com.kingdee.eas.frame
         this.actionTDPrintPreview = new ActionTDPrintPreview(this);
         getActionManager().registerAction("actionTDPrintPreview", actionTDPrintPreview);
          this.actionTDPrintPreview.addService(new com.kingdee.eas.framework.client.service.PermissionService());
+        //actionAudit
+        this.actionAudit = new ActionAudit(this);
+        getActionManager().registerAction("actionAudit", actionAudit);
+        this.actionAudit.setBindWorkFlow(true);
+        this.actionAudit.setExtendProperty("canForewarn", "true");
+        this.actionAudit.setExtendProperty("userDefined", "true");
+        this.actionAudit.setExtendProperty("isObjectUpdateLock", "false");
+         this.actionAudit.addService(new com.kingdee.eas.framework.client.service.PermissionService());
+         this.actionAudit.addService(new com.kingdee.eas.framework.client.service.ForewarnService());
+         this.actionAudit.addService(new com.kingdee.eas.framework.client.service.WorkFlowService());
         this.btnRunSyn = new com.kingdee.bos.ctrl.swing.KDWorkButton();
         this.btnRunSyn.setName("btnRunSyn");
         // CoreUI
@@ -538,6 +549,17 @@ com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().cr
         com.kingdee.bos.ctrl.report.forapp.kdnote.client.KDNoteHelper appHlp = new com.kingdee.bos.ctrl.report.forapp.kdnote.client.KDNoteHelper();
         appHlp.printPreview(getTDFileName(), data, javax.swing.SwingUtilities.getWindowAncestor(this));
     }
+    	
+
+    /**
+     * output actionAudit_actionPerformed method
+     */
+    public void actionAudit_actionPerformed(ActionEvent e) throws Exception
+    {
+        if (getSelectedKeyValue() == null) return;
+com.kingdee.eas.custom.llwebservice.CallVoucherLogInfo editData = (com.kingdee.eas.custom.llwebservice.CallVoucherLogInfo)getBizInterface().getValue(new com.kingdee.bos.dao.ormapping.ObjectUuidPK(BOSUuid.read(getSelectedKeyValue())));
+com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().audit(editData);
+    }
 	public RequestContext prepareActionOnLoad(IItemAction itemAction) throws Exception {
 			RequestContext request = super.prepareActionOnLoad(itemAction);		
 		if (request != null) {
@@ -591,6 +613,17 @@ com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().cr
     }
 	
 	public boolean isPrepareActionTDPrintPreview() {
+    	return false;
+    }
+	public RequestContext prepareActionAudit(IItemAction itemAction) throws Exception {
+			RequestContext request = new RequestContext();		
+		if (request != null) {
+    		request.setClassName(getUIHandlerClassName());
+		}
+		return request;
+    }
+	
+	public boolean isPrepareActionAudit() {
     	return false;
     }
 
@@ -651,6 +684,36 @@ com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().cr
         {
         	getUIContext().put("ORG.PK", getOrgPK(this));
             innerActionPerformed("eas", AbstractCallVoucherLogListUI.this, "ActionTDPrintPreview", "actionTDPrintPreview_actionPerformed", e);
+        }
+    }
+
+    /**
+     * output ActionAudit class
+     */     
+    protected class ActionAudit extends ItemAction {     
+    
+        public ActionAudit()
+        {
+            this(null);
+        }
+
+        public ActionAudit(IUIObject uiObject)
+        {     
+		super(uiObject);     
+        
+            String _tempStr = null;
+            _tempStr = resHelper.getString("ActionAudit.SHORT_DESCRIPTION");
+            this.putValue(ItemAction.SHORT_DESCRIPTION, _tempStr);
+            _tempStr = resHelper.getString("ActionAudit.LONG_DESCRIPTION");
+            this.putValue(ItemAction.LONG_DESCRIPTION, _tempStr);
+            _tempStr = resHelper.getString("ActionAudit.NAME");
+            this.putValue(ItemAction.NAME, _tempStr);
+        }
+
+        public void actionPerformed(ActionEvent e)
+        {
+        	getUIContext().put("ORG.PK", getOrgPK(this));
+            innerActionPerformed("eas", AbstractCallVoucherLogListUI.this, "ActionAudit", "actionAudit_actionPerformed", e);
         }
     }
 

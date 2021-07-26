@@ -76,8 +76,10 @@ public abstract class AbstractCallVoucherLogEditUI extends com.kingdee.eas.frame
     protected com.kingdee.bos.ctrl.swing.KDTextField txtgroup;
     protected com.kingdee.bos.ctrl.swing.KDTextField txtparent;
     protected com.kingdee.bos.ctrl.swing.KDWorkButton actionCreatTo;
+    protected com.kingdee.bos.ctrl.swing.KDWorkButton btnAudit;
     protected com.kingdee.eas.custom.llwebservice.CallVoucherLogInfo editData = null;
     protected ActionCreateTo actionCreateTo = null;
+    protected ActionAudit actionAudit = null;
     /**
      * output class constructor
      */
@@ -165,6 +167,16 @@ public abstract class AbstractCallVoucherLogEditUI extends com.kingdee.eas.frame
          this.actionCreateTo.addService(new com.kingdee.eas.framework.client.service.PermissionService());
          this.actionCreateTo.addService(new com.kingdee.eas.framework.client.service.ForewarnService());
          this.actionCreateTo.addService(new com.kingdee.eas.framework.client.service.WorkFlowService());
+        //actionAudit
+        this.actionAudit = new ActionAudit(this);
+        getActionManager().registerAction("actionAudit", actionAudit);
+        this.actionAudit.setBindWorkFlow(true);
+        this.actionAudit.setExtendProperty("canForewarn", "true");
+        this.actionAudit.setExtendProperty("userDefined", "true");
+        this.actionAudit.setExtendProperty("isObjectUpdateLock", "false");
+         this.actionAudit.addService(new com.kingdee.eas.framework.client.service.PermissionService());
+         this.actionAudit.addService(new com.kingdee.eas.framework.client.service.ForewarnService());
+         this.actionAudit.addService(new com.kingdee.eas.framework.client.service.WorkFlowService());
         this.contlocalNumber = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
         this.contreadTime = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
         this.contlocalId = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
@@ -195,6 +207,7 @@ public abstract class AbstractCallVoucherLogEditUI extends com.kingdee.eas.frame
         this.txtgroup = new com.kingdee.bos.ctrl.swing.KDTextField();
         this.txtparent = new com.kingdee.bos.ctrl.swing.KDTextField();
         this.actionCreatTo = new com.kingdee.bos.ctrl.swing.KDWorkButton();
+        this.btnAudit = new com.kingdee.bos.ctrl.swing.KDWorkButton();
         this.contlocalNumber.setName("contlocalNumber");
         this.contreadTime.setName("contreadTime");
         this.contlocalId.setName("contlocalId");
@@ -225,6 +238,7 @@ public abstract class AbstractCallVoucherLogEditUI extends com.kingdee.eas.frame
         this.txtgroup.setName("txtgroup");
         this.txtparent.setName("txtparent");
         this.actionCreatTo.setName("actionCreatTo");
+        this.btnAudit.setName("btnAudit");
         // CoreUI
         // contlocalNumber		
         this.contlocalNumber.setBoundLabelText(resHelper.getString("contlocalNumber.boundLabelText"));		
@@ -346,6 +360,9 @@ public abstract class AbstractCallVoucherLogEditUI extends com.kingdee.eas.frame
         // actionCreatTo
         this.actionCreatTo.setAction((IItemAction)ActionProxyFactory.getProxy(actionCreateTo, new Class[] { IItemAction.class }, getServiceContext()));		
         this.actionCreatTo.setText(resHelper.getString("actionCreatTo.text"));
+        // btnAudit
+        this.btnAudit.setAction((IItemAction)ActionProxyFactory.getProxy(actionAudit, new Class[] { IItemAction.class }, getServiceContext()));		
+        this.btnAudit.setText(resHelper.getString("btnAudit.text"));
         this.setFocusTraversalPolicy(new com.kingdee.bos.ui.UIFocusTraversalPolicy(new java.awt.Component[] {txtlocalNumber,pkreadTime,txtlocalId,txtbizNumber,txtbizId,result,pklastUpdateTime,txtdataType,txtbizName,txtgroup,txtparent}));
         this.setFocusCycleRoot(true);
 		//Register control's property binding
@@ -541,6 +558,7 @@ public abstract class AbstractCallVoucherLogEditUI extends com.kingdee.eas.frame
         this.toolBar.add(btnCancelCancel);
         this.toolBar.add(btnCancel);
         this.toolBar.add(actionCreatTo);
+        this.toolBar.add(btnAudit);
 
 
     }
@@ -749,6 +767,15 @@ public abstract class AbstractCallVoucherLogEditUI extends com.kingdee.eas.frame
     {
         com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().createTo(editData);
     }
+    	
+
+    /**
+     * output actionAudit_actionPerformed method
+     */
+    public void actionAudit_actionPerformed(ActionEvent e) throws Exception
+    {
+        com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().audit(editData);
+    }
 	public RequestContext prepareActionOnLoad(IItemAction itemAction) throws Exception {
 			RequestContext request = super.prepareActionOnLoad(itemAction);		
 		if (request != null) {
@@ -804,6 +831,17 @@ public abstract class AbstractCallVoucherLogEditUI extends com.kingdee.eas.frame
 	public boolean isPrepareActionCreateTo() {
     	return false;
     }
+	public RequestContext prepareActionAudit(IItemAction itemAction) throws Exception {
+			RequestContext request = new RequestContext();		
+		if (request != null) {
+    		request.setClassName(getUIHandlerClassName());
+		}
+		return request;
+    }
+	
+	public boolean isPrepareActionAudit() {
+    	return false;
+    }
 
     /**
      * output ActionCreateTo class
@@ -832,6 +870,36 @@ public abstract class AbstractCallVoucherLogEditUI extends com.kingdee.eas.frame
         {
         	getUIContext().put("ORG.PK", getOrgPK(this));
             innerActionPerformed("eas", AbstractCallVoucherLogEditUI.this, "ActionCreateTo", "actionCreateTo_actionPerformed", e);
+        }
+    }
+
+    /**
+     * output ActionAudit class
+     */     
+    protected class ActionAudit extends ItemAction {     
+    
+        public ActionAudit()
+        {
+            this(null);
+        }
+
+        public ActionAudit(IUIObject uiObject)
+        {     
+		super(uiObject);     
+        
+            String _tempStr = null;
+            _tempStr = resHelper.getString("ActionAudit.SHORT_DESCRIPTION");
+            this.putValue(ItemAction.SHORT_DESCRIPTION, _tempStr);
+            _tempStr = resHelper.getString("ActionAudit.LONG_DESCRIPTION");
+            this.putValue(ItemAction.LONG_DESCRIPTION, _tempStr);
+            _tempStr = resHelper.getString("ActionAudit.NAME");
+            this.putValue(ItemAction.NAME, _tempStr);
+        }
+
+        public void actionPerformed(ActionEvent e)
+        {
+        	getUIContext().put("ORG.PK", getOrgPK(this));
+            innerActionPerformed("eas", AbstractCallVoucherLogEditUI.this, "ActionAudit", "actionAudit_actionPerformed", e);
         }
     }
 

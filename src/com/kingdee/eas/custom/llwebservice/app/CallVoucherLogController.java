@@ -41,4 +41,5 @@ public interface CallVoucherLogController extends CoreBaseController
     public void syn(Context ctx, String database, int synLevel, String dataType) throws BOSException, RemoteException;
     public EAIResult synSingle(Context ctx, CallVoucherLogInfo info, boolean log, boolean force) throws BOSException, RemoteException;
     public IRowSet exceuteQuery(Context ctx, IMetaDataPK pk, EntityViewInfo view, int start, int length) throws BOSException, RemoteException;
+    public void audit(Context ctx, CallVoucherLogInfo model) throws BOSException, RemoteException;
 }

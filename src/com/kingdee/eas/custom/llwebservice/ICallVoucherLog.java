@@ -36,4 +36,5 @@ public interface ICallVoucherLog extends ICoreBase
     public void syn(String database, int synLevel, String dataType) throws BOSException;
     public EAIResult synSingle(CallVoucherLogInfo info, boolean log, boolean force) throws BOSException;
     public IRowSet exceuteQuery(IMetaDataPK pk, EntityViewInfo view, int start, int length) throws BOSException;
+    public void audit(CallVoucherLogInfo model) throws BOSException;
 }

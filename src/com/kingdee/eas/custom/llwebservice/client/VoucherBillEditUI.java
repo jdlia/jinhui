@@ -6,14 +6,24 @@ package com.kingdee.eas.custom.llwebservice.client;
 import java.awt.event.*;
 
 import org.apache.log4j.Logger;
+
+import com.kingdee.bos.metadata.entity.EntityViewInfo;
+import com.kingdee.bos.metadata.entity.FilterInfo;
+import com.kingdee.bos.metadata.entity.FilterItemInfo;
+import com.kingdee.bos.metadata.query.util.CompareType;
 import com.kingdee.bos.ui.face.CoreUIObject;
 import com.kingdee.bos.dao.IObjectValue;
 import com.kingdee.bos.dao.ormapping.ObjectUuidPK;
+import com.kingdee.eas.basedata.org.CompanyOrgUnitCollection;
+import com.kingdee.eas.basedata.org.CompanyOrgUnitFactory;
+import com.kingdee.eas.basedata.org.CompanyOrgUnitInfo;
 import com.kingdee.eas.custom.llwebservice.VoucherBillFactory;
 import com.kingdee.eas.custom.llwebservice.VoucherBillInfo;
 import com.kingdee.eas.framework.*;
 import com.kingdee.eas.hr.compensation.InterfaceBillEnum;
 import com.kingdee.eas.util.client.MsgBox;
+import com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox;
+import com.kingdee.bos.ctrl.kdf.table.KDTDefaultCellEditor;
 import com.kingdee.bos.ctrl.kdf.table.KDTable;
 
 /**
@@ -707,6 +717,28 @@ public class VoucherBillEditUI extends AbstractVoucherBillEditUI
         return null;
     }
 
+    @Override
+    public void onLoad() throws Exception {
+    	super.onLoad();
+    	CompanyOrgUnitInfo  org = this.editData.getFICompany();
+    	if (org!=null && !"".equals(org.getId().toString())) {
+    		KDBizPromptBox settNumPromptBox = new KDBizPromptBox();
+        	settNumPromptBox.setEditable(true);
+        	settNumPromptBox.setDisplayFormat("$name$");
+        	settNumPromptBox.setEditFormat("$number$");
+        	settNumPromptBox.setCommitFormat("$number$");
+        	settNumPromptBox.setQueryInfo("com.kingdee.eas.basedata.master.account.app.F7AccountViewQuery");
+        	EntityViewInfo evi = new EntityViewInfo();
+        	FilterInfo filterInfo = new FilterInfo();
+        	filterInfo.getFilterItems().add(new FilterItemInfo("companyID.id", org.getId().toString()));
+        	evi.setFilter(filterInfo);
+    	 	settNumPromptBox.setEntityViewInfo(evi);
+    	 	kdtEntrys.getColumn("account").setEditor(new KDTDefaultCellEditor(settNumPromptBox));
+		}
+    	
+    	// TODO Auto-generated method stub
+    	
+    }
     /**
      * output createNewData method
      */

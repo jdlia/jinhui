@@ -205,4 +205,17 @@ public class CallVoucherLog extends CoreBase implements ICallVoucherLog
             throw new EJBRemoteException(err);
         }
     }
+    /**
+     *…Û∫À-User defined method
+     *@param model model
+     */
+    public void audit(CallVoucherLogInfo model) throws BOSException
+    {
+        try {
+            getController().audit(getContext(), model);
+        }
+        catch(RemoteException err) {
+            throw new EJBRemoteException(err);
+        }
+    }
 }

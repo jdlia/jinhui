@@ -19,4 +19,9 @@ public abstract class AbstractCallVoucherLogEditUIHandler extends com.kingdee.ea
 	}
 	protected void _handleActionCreateTo(RequestContext request,ResponseContext response, Context context) throws Exception {
 	}
+	public void handleActionAudit(RequestContext request,ResponseContext response, Context context) throws Exception {
+		_handleActionAudit(request,response,context);
+	}
+	protected void _handleActionAudit(RequestContext request,ResponseContext response, Context context) throws Exception {
+	}
 }
