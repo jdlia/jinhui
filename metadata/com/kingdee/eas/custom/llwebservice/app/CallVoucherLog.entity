@@ -368,6 +368,32 @@
             </parameters>
             <configured>false</configured>
         </method>
+        <method>
+            <name>audit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[audit].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[audit].description</description>
+            <innerID>5e196781-cc0f-4383-bc90-a89e4e244066</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[audit].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[audit].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.llwebservice.app.CallVoucherLog</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
     </methods>
     <isAbstract>false</isAbstract>
     <bizUnitPK>com.kingdee.eas.custom.llwebservice.CallVoucherLog</bizUnitPK>
@@ -794,6 +820,48 @@
                 </formalParameter>
             </formalParameters>
         </event>
+        <event>
+            <name>auditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>5e196781-cc0f-4383-bc90-a89e4e244066</name>
+                    <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].eventMethods.eventMethod[5e196781-cc0f-4383-bc90-a89e4e244066].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].eventMethods.eventMethod[5e196781-cc0f-4383-bc90-a89e4e244066].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="audit" />
+                        <key name="innerID" value="5e196781-cc0f-4383-bc90-a89e4e244066" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].eventMethods.eventMethod[5e196781-cc0f-4383-bc90-a89e4e244066].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].eventMethods.eventMethod[5e196781-cc0f-4383-bc90-a89e4e244066].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>687000d4-a4aa-4370-be02-2faa501e703cevfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>687000d4-a4aa-4370-be02-2faa501e703cevfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.llwebservice.app.CallVoucherLog</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
     </events>
     <defaultView>
         <name />
@@ -804,16 +872,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="调用凭证接口日志" />
-            <lang locale="zh_TW" value="系統集成平臺" />
+            <lang locale="zh_HK" value="調用憑證介面日誌" />
+            <lang locale="zh_TW" value="調用憑證介面日誌" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].defaultViewalias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].defaultViewdescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].defaultViewextendedProperty.OrgType">
@@ -861,104 +932,172 @@
             <lang locale="zh_CN" value="" />
             <lang locale="zh_TW" value="多分錄基礎單據範本" />
         </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核事件" />
+            <lang locale="zh_HK" value="審核事件" />
+            <lang locale="zh_TW" value="審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].eventMethods.eventMethod[5e196781-cc0f-4383-bc90-a89e4e244066].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].eventMethods.eventMethod[5e196781-cc0f-4383-bc90-a89e4e244066].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].eventMethods.eventMethod[5e196781-cc0f-4383-bc90-a89e4e244066].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].eventMethods.eventMethod[5e196781-cc0f-4383-bc90-a89e4e244066].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[auditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[createToEvent].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="下推事件" />
+            <lang locale="zh_HK" value="下推事件" />
             <lang locale="zh_TW" value="下推事件" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[createToEvent].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[createToEvent].eventMethods.eventMethod[909838f7-3ae8-40a9-8bd3-97a0a844da88].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[createToEvent].eventMethods.eventMethod[909838f7-3ae8-40a9-8bd3-97a0a844da88].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[createToEvent].eventMethods.eventMethod[909838f7-3ae8-40a9-8bd3-97a0a844da88].parameterMappings.parameterMappingalias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[createToEvent].eventMethods.eventMethod[909838f7-3ae8-40a9-8bd3-97a0a844da88].parameterMappings.parameterMappingdescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[createToEvent].formalParameters.formalParameter.parameter[model].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[createToEvent].formalParameters.formalParameter.parameter[model].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="同步数据" />
+            <lang locale="zh_HK" value="同步數據" />
             <lang locale="zh_TW" value="同步數據" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].eventMethods.eventMethod[00e74fc5-f8da-40ff-aea6-6113094068fb].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].eventMethods.eventMethod[00e74fc5-f8da-40ff-aea6-6113094068fb].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].eventMethods.eventMethod[00e74fc5-f8da-40ff-aea6-6113094068fb].parameterMappings.parameterMappingalias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].eventMethods.eventMethod[00e74fc5-f8da-40ff-aea6-6113094068fb].parameterMappings.parameterMappingdescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].formalParameters.formalParameter.parameter[dataBase].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="数据库编码" />
+            <lang locale="zh_HK" value="資料庫編碼" />
             <lang locale="zh_TW" value="資料庫編碼" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].formalParameters.formalParameter.parameter[dataBase].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].formalParameters.formalParameter.parameter[dataType].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_HK" value="數據類型" />
             <lang locale="zh_TW" value="數據類型" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].formalParameters.formalParameter.parameter[dataType].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].formalParameters.formalParameter.parameter[synLevel].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="优先级" />
+            <lang locale="zh_HK" value="優先級" />
             <lang locale="zh_TW" value="優先級" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].events.event[synEvent].formalParameters.formalParameter.parameter[synLevel].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].extendedProperty.OrgType">
@@ -970,6 +1109,11 @@
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
             <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].extendedProperty.controllerBeanEx">
+            <lang locale="en_US" value="com.kingdee.eas.custom.llwebservice.app.CallVoucherLogControllerBeanEx" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.llwebservice.app.CallVoucherLogControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.llwebservice.app.CallVoucherLogControllerBeanEx" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].extendedProperty.defaultDisplayField">
             <lang locale="en_US" value="" />
@@ -1009,11 +1153,13 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].logicalKey[id].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="id" />
+            <lang locale="zh_HK" value="id" />
             <lang locale="zh_TW" value="id" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].logicalKey[id].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].logicalKey[id].extendedProperty.OrgType">
@@ -1056,39 +1202,70 @@
             <lang locale="zh_CN" value="com.kingdee.eas.eai.client.EaiCenterListUI" />
             <lang locale="zh_TW" value="com.kingdee.eas.eai.client.EaiCenterListUI" />
         </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[audit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核" />
+            <lang locale="zh_HK" value="審核" />
+            <lang locale="zh_TW" value="審核" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[audit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[audit].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[audit].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[createTo].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="下推" />
+            <lang locale="zh_HK" value="下推" />
             <lang locale="zh_TW" value="下推" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[createTo].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[createTo].parameters.parameter[model].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[createTo].parameters.parameter[model].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="查询" />
+            <lang locale="zh_HK" value="查詢" />
             <lang locale="zh_TW" value="查詢" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].parameters.parameter[length].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="长度" />
+            <lang locale="zh_HK" value="長度" />
             <lang locale="zh_TW" value="長度" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].parameters.parameter[length].description">
@@ -1099,6 +1276,7 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].parameters.parameter[pk].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="queryPK" />
+            <lang locale="zh_HK" value="queryPK" />
             <lang locale="zh_TW" value="queryPK" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].parameters.parameter[pk].description">
@@ -1109,6 +1287,7 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].parameters.parameter[start].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="start" />
+            <lang locale="zh_HK" value="start" />
             <lang locale="zh_TW" value="start" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].parameters.parameter[start].description">
@@ -1119,6 +1298,7 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].parameters.parameter[view].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="entityView" />
+            <lang locale="zh_HK" value="entityView" />
             <lang locale="zh_TW" value="entityView" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[exceuteQuery].parameters.parameter[view].description">
@@ -1129,16 +1309,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[executeQueryByPK].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="通过Query对象查询" />
+            <lang locale="zh_HK" value="通過Query對象查詢" />
             <lang locale="zh_TW" value="通過Query對象查詢" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[executeQueryByPK].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[executeQueryByPK].parameters.parameter[pk].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="queryPK" />
+            <lang locale="zh_HK" value="queryPK" />
             <lang locale="zh_TW" value="queryPK" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[executeQueryByPK].parameters.parameter[pk].description">
@@ -1149,6 +1332,7 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[executeQueryByPK].parameters.parameter[view].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="EntityView" />
+            <lang locale="zh_HK" value="EntityView" />
             <lang locale="zh_TW" value="EntityView" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[executeQueryByPK].parameters.parameter[view].description">
@@ -1159,86 +1343,103 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getCollection].alias">
             <lang locale="en_US" value="getCollection" />
             <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
             <lang locale="zh_TW" value="取集合" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getCollection].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getCollection].parameters.parameter[oql].alias">
             <lang locale="en_US" value="getCollection" />
             <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
             <lang locale="zh_TW" value="取集合" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getCollection].parameters.parameter[oql].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getCollection].parameters.parameter[view].alias">
             <lang locale="en_US" value="getCollection" />
             <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
             <lang locale="zh_TW" value="取集合" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getCollection].parameters.parameter[view].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getValue].alias">
             <lang locale="en_US" value="getValue" />
             <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
             <lang locale="zh_TW" value="取值" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getValue].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getValue].parameters.parameter[oql].alias">
             <lang locale="en_US" value="getValue" />
             <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
             <lang locale="zh_TW" value="取值" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getValue].parameters.parameter[oql].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getValue].parameters.parameter[pk].alias">
             <lang locale="en_US" value="getValue" />
             <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
             <lang locale="zh_TW" value="取值" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getValue].parameters.parameter[pk].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getValue].parameters.parameter[selector].alias">
             <lang locale="en_US" value="getValue" />
             <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
             <lang locale="zh_TW" value="取值" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[getValue].parameters.parameter[selector].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[synSingle].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="同步一个" />
+            <lang locale="zh_HK" value="同步一個" />
             <lang locale="zh_TW" value="同步一個" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[synSingle].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[synSingle].parameters.parameter[force].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="是否强制执行" />
+            <lang locale="zh_HK" value="是否強制執行" />
             <lang locale="zh_TW" value="是否強制執行" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[synSingle].parameters.parameter[force].description">
@@ -1249,6 +1450,7 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[synSingle].parameters.parameter[info].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="接口数据" />
+            <lang locale="zh_HK" value="介面數據" />
             <lang locale="zh_TW" value="介面數據" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[synSingle].parameters.parameter[info].description">
@@ -1259,26 +1461,31 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[synSingle].parameters.parameter[log].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="是否记录日志" />
+            <lang locale="zh_HK" value="是否記錄日誌" />
             <lang locale="zh_TW" value="是否記錄日誌" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[synSingle].parameters.parameter[log].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="如果log=true，如果数据来自ws或其他系统，而不是来自中间表，那么就自动将数据保持到中间表，并记录同步日志。如果log=false不保存，也不记录日志" />
+            <lang locale="zh_HK" value="如果log=true，如果數據來自ws或其他系統，而不是來自中間表，那麼就自動將數據保持到中間表，並記錄同步日誌。如果log=false不保存，也不記錄日誌" />
             <lang locale="zh_TW" value="如果log=true，如果數據來自ws或其他系統，而不是來自中間表，那麼就自動將數據保持到中間表，並記錄同步日誌。如果log=false不保存，也不記錄日誌" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[syn].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="同步数据" />
+            <lang locale="zh_HK" value="同步數據" />
             <lang locale="zh_TW" value="同步數據" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[syn].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[syn].parameters.parameter[dataType].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="数据类型编码" />
+            <lang locale="zh_HK" value="數據類型編碼" />
             <lang locale="zh_TW" value="數據類型編碼" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[syn].parameters.parameter[dataType].description">
@@ -1289,6 +1496,7 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[syn].parameters.parameter[database].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="数据库编码" />
+            <lang locale="zh_HK" value="資料庫編碼" />
             <lang locale="zh_TW" value="資料庫編碼" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[syn].parameters.parameter[database].description">
@@ -1299,6 +1507,7 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[syn].parameters.parameter[synLevel].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="优先级" />
+            <lang locale="zh_HK" value="優先級" />
             <lang locale="zh_TW" value="優先級" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].methods.method[syn].parameters.parameter[synLevel].description">
@@ -1309,11 +1518,13 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.linkProperty[creator].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="制单人" />
+            <lang locale="zh_HK" value="制單人" />
             <lang locale="zh_TW" value="制單人" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.linkProperty[creator].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="制单人" />
+            <lang locale="zh_HK" value="制單人" />
             <lang locale="zh_TW" value="制單人" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.linkProperty[creator].extendedProperty.ColWidthInKDTable">
@@ -1359,16 +1570,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizId].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据ID" />
+            <lang locale="zh_HK" value="業務數據ID" />
             <lang locale="zh_TW" value="業務數據ID" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizId].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizId].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据ID" />
+            <lang locale="zh_HK" value="業務數據ID" />
             <lang locale="zh_TW" value="業務數據ID" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizId].extendedProperty.ColWidthInKDTable">
@@ -1419,16 +1633,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizName].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
             <lang locale="zh_TW" value="名稱" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizName].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizName].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
             <lang locale="zh_TW" value="名稱" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizName].extendedProperty.ColWidthInKDTable">
@@ -1479,16 +1696,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizNumber].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据编码" />
+            <lang locale="zh_HK" value="業務數據編碼" />
             <lang locale="zh_TW" value="業務數據編碼" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizNumber].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizNumber].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务编码" />
+            <lang locale="zh_HK" value="業務編碼" />
             <lang locale="zh_TW" value="業務編碼" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[bizNumber].extendedProperty.ColWidthInKDTable">
@@ -1539,16 +1759,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[dataType].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_HK" value="數據類型" />
             <lang locale="zh_TW" value="數據類型" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[dataType].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[dataType].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_HK" value="數據類型" />
             <lang locale="zh_TW" value="數據類型" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[dataType].extendedProperty.ColWidthInKDTable">
@@ -1599,16 +1822,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[group].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="分组" />
+            <lang locale="zh_HK" value="分組" />
             <lang locale="zh_TW" value="分組" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[group].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[group].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="分组" />
+            <lang locale="zh_HK" value="分組" />
             <lang locale="zh_TW" value="分組" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[group].extendedProperty.ColWidthInKDTable">
@@ -1659,11 +1885,13 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[json].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据" />
+            <lang locale="zh_HK" value="業務數據" />
             <lang locale="zh_TW" value="業務數據" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[json].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[json].description">
@@ -1719,16 +1947,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[lastUpdateTime].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="更新时间" />
+            <lang locale="zh_HK" value="更新時間" />
             <lang locale="zh_TW" value="更新時間" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[lastUpdateTime].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[lastUpdateTime].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="更新时间" />
+            <lang locale="zh_HK" value="更新時間" />
             <lang locale="zh_TW" value="更新時間" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[lastUpdateTime].extendedProperty.ColWidthInKDTable">
@@ -1779,16 +2010,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[localId].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="财务单据ID" />
+            <lang locale="zh_HK" value="財務單據ID" />
             <lang locale="zh_TW" value="財務單據ID" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[localId].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[localId].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="财务单据ID" />
+            <lang locale="zh_HK" value="財務單據ID" />
             <lang locale="zh_TW" value="財務單據ID" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[localId].extendedProperty.ColWidthInKDTable">
@@ -1839,16 +2073,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[localNumber].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="财务单据编码" />
+            <lang locale="zh_HK" value="財務單據編碼" />
             <lang locale="zh_TW" value="財務單據編碼" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[localNumber].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[localNumber].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="财务单据编码" />
+            <lang locale="zh_HK" value="財務單據編碼" />
             <lang locale="zh_TW" value="財務單據編碼" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[localNumber].extendedProperty.ColWidthInKDTable">
@@ -1899,16 +2136,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[parent].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="父级" />
+            <lang locale="zh_HK" value="父級" />
             <lang locale="zh_TW" value="父級" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[parent].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[parent].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="父级" />
+            <lang locale="zh_HK" value="父級" />
             <lang locale="zh_TW" value="父級" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[parent].extendedProperty.ColWidthInKDTable">
@@ -1959,16 +2199,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[readTime].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="读取时间" />
+            <lang locale="zh_HK" value="讀取時間" />
             <lang locale="zh_TW" value="讀取時間" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[readTime].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[readTime].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="读取时间" />
+            <lang locale="zh_HK" value="讀取時間" />
             <lang locale="zh_TW" value="讀取時間" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[readTime].extendedProperty.ColWidthInKDTable">
@@ -2019,16 +2262,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[resultDesc].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="结果描述" />
+            <lang locale="zh_HK" value="結果描述" />
             <lang locale="zh_TW" value="結果描述" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[resultDesc].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[resultDesc].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="结果描述" />
+            <lang locale="zh_HK" value="結果描述" />
             <lang locale="zh_TW" value="結果描述" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[resultDesc].extendedProperty.ColWidthInKDTable">
@@ -2079,16 +2325,19 @@
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[result].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="同步结果" />
+            <lang locale="zh_HK" value="同步結果" />
             <lang locale="zh_TW" value="同步結果" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[result].defaultValue">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="success" />
+            <lang locale="zh_HK" value="success" />
             <lang locale="zh_TW" value="success" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[result].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="同步结果" />
+            <lang locale="zh_HK" value="同步結果" />
             <lang locale="zh_TW" value="同步結果" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLog].properties.ownProperty[result].extendedProperty.ColWidthInKDTable">

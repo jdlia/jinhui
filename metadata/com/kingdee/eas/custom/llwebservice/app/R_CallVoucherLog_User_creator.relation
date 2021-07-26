@@ -21,11 +21,13 @@
         <rs key="relationship[com.kingdee.eas.custom.llwebservice.app.R_CallVoucherLog_User_creator].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="relationship[com.kingdee.eas.custom.llwebservice.app.R_CallVoucherLog_User_creator].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
     </resource>

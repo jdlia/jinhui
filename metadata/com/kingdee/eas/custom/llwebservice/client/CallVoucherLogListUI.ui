@@ -19,7 +19,7 @@
         <component>
             <name>CoreUI</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[CoreUI].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
             <isContainer>true</isContainer>
             <constraints />
@@ -35,7 +35,7 @@
         <component>
             <name>tblMain</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[tblMain].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>com.kingdee.bos.ctrl.kdf.table.KDTable</classType>
             <isContainer>false</isContainer>
             <constraints>10,10,996,580,15</constraints>
@@ -53,7 +53,7 @@
                     <type>java.lang.String</type>
                     <value>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[tblMain].properties.property[formatXml].value</value>
                     <isMultiLan>true</isMultiLan>
-                    <userDefined>true</userDefined>
+                    <userDefined>false</userDefined>
                 </property>
             </properties>
             <propertyBindings>
@@ -197,7 +197,7 @@
         <component>
             <name>separatorFW2</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[separatorFW2].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>javax.swing.JToolBar.Separator</classType>
             <isContainer>false</isContainer>
             <constraints />
@@ -210,14 +210,14 @@
                     <type>boolean</type>
                     <value>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[separatorFW2].properties.property[visible].value</value>
                     <isMultiLan>false</isMultiLan>
-                    <userDefined>true</userDefined>
+                    <userDefined>false</userDefined>
                 </property>
             </properties>
         </component>
         <component>
             <name>btnAuditResult</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[btnAuditResult].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
             <isContainer>false</isContainer>
             <constraints />
@@ -267,7 +267,7 @@
         <component>
             <name>menuItemCopyTo</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemCopyTo].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
             <isContainer>false</isContainer>
             <constraints />
@@ -287,7 +287,7 @@
         <component>
             <name>kDSeparator4</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[kDSeparator4].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDSeparator</classType>
             <isContainer>false</isContainer>
             <constraints />
@@ -300,14 +300,14 @@
                     <type>boolean</type>
                     <value>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[kDSeparator4].properties.property[visible].value</value>
                     <isMultiLan>false</isMultiLan>
-                    <userDefined>true</userDefined>
+                    <userDefined>false</userDefined>
                 </property>
             </properties>
         </component>
         <component>
             <name>kDSeparator6</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[kDSeparator6].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDSeparator</classType>
             <isContainer>false</isContainer>
             <constraints />
@@ -320,14 +320,14 @@
                     <type>boolean</type>
                     <value>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[kDSeparator6].properties.property[visible].value</value>
                     <isMultiLan>false</isMultiLan>
-                    <userDefined>true</userDefined>
+                    <userDefined>false</userDefined>
                 </property>
             </properties>
         </component>
         <component>
             <name>menuItemViewDoProccess</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemViewDoProccess].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
             <isContainer>false</isContainer>
             <constraints />
@@ -340,14 +340,14 @@
                     <type>boolean</type>
                     <value>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemViewDoProccess].properties.property[visible].value</value>
                     <isMultiLan>false</isMultiLan>
-                    <userDefined>true</userDefined>
+                    <userDefined>false</userDefined>
                 </property>
             </properties>
         </component>
         <component>
             <name>menuItemAuditResult</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemAuditResult].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
             <isContainer>false</isContainer>
             <constraints />
@@ -371,7 +371,7 @@
             <type>com.kingdee.eas.custom.llwebservice.app.CallVoucherLogQuery</type>
             <objectType>jqye</objectType>
             <herited>true</herited>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
         </dataObject>
     </dataObjects>
     <actions>
@@ -397,7 +397,7 @@
 &lt;ExtendProperty&gt;&lt;item key="userDefined" value="false" /&gt;&lt;item key="isObjectUpdateLock" value="false" /&gt;&lt;/ExtendProperty&gt;</actionExtendProperty>
             <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.UserMonitorService" /&gt;&lt;/root&gt;</services>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <userDefinedLogic />
             <oprtIntent />
             <nextUI />
@@ -427,7 +427,7 @@
             <actionExtendProperty />
             <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.NetFunctionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.UserMonitorService" /&gt;&lt;/root&gt;</services>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <userDefinedLogic />
             <oprtIntent />
             <nextUI />
@@ -460,7 +460,7 @@ com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().cr
 &lt;ExtendProperty&gt;&lt;item key="canForewarn" value="true" /&gt;&lt;item key="userDefined" value="true" /&gt;&lt;item key="isObjectUpdateLock" value="false" /&gt;&lt;/ExtendProperty&gt;</actionExtendProperty>
             <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.ForewarnService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.WorkFlowService" /&gt;&lt;/root&gt;</services>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <userDefinedLogic />
             <oprtIntent />
             <nextUI />
@@ -541,6 +541,41 @@ com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().cr
             <isEntryAction>false</isEntryAction>
             <batchMethodName />
         </action>
+        <action>
+            <instanceName>actionAudit</instanceName>
+            <className>ActionAudit</className>
+            <name>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionAudit].name</name>
+            <enabled>true</enabled>
+            <actionPerformed>if (getSelectedKeyValue() == null) return;
+com.kingdee.eas.custom.llwebservice.CallVoucherLogInfo editData = (com.kingdee.eas.custom.llwebservice.CallVoucherLogInfo)getBizInterface().getValue(new com.kingdee.bos.dao.ormapping.ObjectUuidPK(BOSUuid.read(getSelectedKeyValue())));
+com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().audit(editData);</actionPerformed>
+            <beforeActionPerformed />
+            <afterActionPerformed />
+            <finallyActionPerformed />
+            <actionCommandKey />
+            <acceleratorKey />
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionAudit].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionAudit].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionAudit].longDescription</longDescription>
+            <isBindWorkFlow>true</isBindWorkFlow>
+            <herited>false</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;ExtendProperty&gt;&lt;item key="canForewarn" value="true" /&gt;&lt;item key="userDefined" value="true" /&gt;&lt;item key="isObjectUpdateLock" value="false" /&gt;&lt;/ExtendProperty&gt;
+</actionExtendProperty>
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.ForewarnService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.WorkFlowService" /&gt;&lt;/root&gt;
+</services>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+            <isBatchAction>false</isBatchAction>
+            <isEntryAction>false</isEntryAction>
+            <batchMethodName />
+        </action>
     </actions>
     <statuses>
         <status>
@@ -554,129 +589,178 @@ com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().cr
         </status>
     </statuses>
     <resource>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionAudit].longDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionAudit].name">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核" />
+            <lang locale="zh_HK" value="審核" />
+            <lang locale="zh_TW" value="審核" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionAudit].shortDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionAudit].smallIcon">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionCreateTo].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionCreateTo].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="下推" />
+            <lang locale="zh_HK" value="下推" />
             <lang locale="zh_TW" value="下推" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionCreateTo].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionCreateTo].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionOnLoad].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="界面显示" />
+            <lang locale="zh_HK" value="介面顯示" />
             <lang locale="zh_TW" value="介面顯示" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionOnLoad].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="界面显示" />
+            <lang locale="zh_HK" value="介面顯示" />
             <lang locale="zh_TW" value="介面顯示" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionOnLoad].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionOnLoad].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionRemove].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="删除" />
+            <lang locale="zh_HK" value="刪除" />
             <lang locale="zh_TW" value="刪除" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionRemove].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="删除" />
+            <lang locale="zh_HK" value="刪除" />
             <lang locale="zh_TW" value="刪除" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionRemove].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="删除" />
+            <lang locale="zh_HK" value="刪除" />
             <lang locale="zh_TW" value="刪除" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionRemove].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionTDPrintPreview].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionTDPrintPreview].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionTDPrintPreview].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionTDPrintPreview].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionTDPrint].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionTDPrint].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionTDPrint].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].actions.action[actionTDPrint].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="调用凭证接口日志" />
-            <lang locale="zh_TW" value="系統集成平臺" />
+            <lang locale="zh_HK" value="調用憑證介面日誌" />
+            <lang locale="zh_TW" value="調用憑證介面日誌" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[CoreUI].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[btnAuditResult].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[btnAuditResult].properties.property[visible].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[btnRunSyn].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[btnRunSyn].extendedProperty.userDefined">
@@ -687,86 +771,103 @@ com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().cr
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[btnRunSyn].properties.property[action].value">
             <lang locale="en_US" value="actionOnLoad" />
             <lang locale="zh_CN" value="actionOnLoad" />
+            <lang locale="zh_HK" value="actionOnLoad" />
             <lang locale="zh_TW" value="actionOnLoad" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[btnRunSyn].properties.property[text].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="批量同步" />
+            <lang locale="zh_HK" value="批量同步" />
             <lang locale="zh_TW" value="批量同步" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[kDSeparator4].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[kDSeparator4].properties.property[visible].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[kDSeparator6].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[kDSeparator6].properties.property[visible].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemAuditResult].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemAuditResult].properties.property[visible].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemCopyTo].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemCopyTo].properties.property[visible].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemViewDoProccess].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[menuItemViewDoProccess].properties.property[visible].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[separatorFW2].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[separatorFW2].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[tblMain].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].components.component[tblMain].properties.property[formatXml].value">
             <lang locale="en_US" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles /&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;bizDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;description&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;createTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;auditor.number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;auditor.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;creator.number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;creator.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateUser.number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateUser.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;entrys.id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;handler.number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;handler.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;entrys.seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;id&lt;/t:Cell&gt;&lt;t:Cell&gt;number&lt;/t:Cell&gt;&lt;t:Cell&gt;bizDate&lt;/t:Cell&gt;&lt;t:Cell&gt;description&lt;/t:Cell&gt;&lt;t:Cell&gt;createTime&lt;/t:Cell&gt;&lt;t:Cell&gt;lastUpdateTime&lt;/t:Cell&gt;&lt;t:Cell&gt;auditor.number&lt;/t:Cell&gt;&lt;t:Cell&gt;auditor.name&lt;/t:Cell&gt;&lt;t:Cell&gt;creator.number&lt;/t:Cell&gt;&lt;t:Cell&gt;creator.name&lt;/t:Cell&gt;&lt;t:Cell&gt;lastUpdateUser.number&lt;/t:Cell&gt;&lt;t:Cell&gt;lastUpdateUser.name&lt;/t:Cell&gt;&lt;t:Cell&gt;entrys.id&lt;/t:Cell&gt;&lt;t:Cell&gt;handler.number&lt;/t:Cell&gt;&lt;t:Cell&gt;handler.name&lt;/t:Cell&gt;&lt;t:Cell&gt;entrys.seq&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt; " />
             <lang locale="zh_CN" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol5&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;datetime&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol8&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;datetime&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;dataType&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;1&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.bizId&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;2&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.bizNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;3&quot; /&gt;&lt;t:Column t:key=&quot;bizName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;4&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;150&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;5&quot; t:styleID=&quot;sCol5&quot; /&gt;&lt;t:Column t:key=&quot;result&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;6&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.localNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;7&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.readTime&quot; t:width=&quot;150&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;8&quot; t:styleID=&quot;sCol8&quot; /&gt;&lt;t:Column t:key=&quot;group&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;parent&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;id&lt;/t:Cell&gt;&lt;t:Cell&gt;数据类型&lt;/t:Cell&gt;&lt;t:Cell&gt;业务数据ID&lt;/t:Cell&gt;&lt;t:Cell&gt;业务数据编码&lt;/t:Cell&gt;&lt;t:Cell&gt;业务数据名称&lt;/t:Cell&gt;&lt;t:Cell&gt;更新时间&lt;/t:Cell&gt;&lt;t:Cell&gt;同步结果&lt;/t:Cell&gt;&lt;t:Cell&gt;财务单据编码&lt;/t:Cell&gt;&lt;t:Cell&gt;读取时间&lt;/t:Cell&gt;&lt;t:Cell&gt;分组&lt;/t:Cell&gt;&lt;t:Cell&gt;父级&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_HK" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol5&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;datetime&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol8&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;datetime&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;dataType&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;1&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.bizId&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;2&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.bizNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;3&quot; /&gt;&lt;t:Column t:key=&quot;bizName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;4&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;150&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;5&quot; t:styleID=&quot;sCol5&quot; /&gt;&lt;t:Column t:key=&quot;result&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;6&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.localNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;7&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.readTime&quot; t:width=&quot;150&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;8&quot; t:styleID=&quot;sCol8&quot; /&gt;&lt;t:Column t:key=&quot;group&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;parent&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;id&lt;/t:Cell&gt;&lt;t:Cell&gt;數據類型&lt;/t:Cell&gt;&lt;t:Cell&gt;業務數據ID&lt;/t:Cell&gt;&lt;t:Cell&gt;業務數據編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;業務數據名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;更新時間&lt;/t:Cell&gt;&lt;t:Cell&gt;同步結果&lt;/t:Cell&gt;&lt;t:Cell&gt;財務單據編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;讀取時間&lt;/t:Cell&gt;&lt;t:Cell&gt;分組&lt;/t:Cell&gt;&lt;t:Cell&gt;父級&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
             <lang locale="zh_TW" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol5&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;datetime&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol8&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;datetime&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;dataType&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;1&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.bizId&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;2&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.bizNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;3&quot; /&gt;&lt;t:Column t:key=&quot;bizName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;4&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;150&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;5&quot; t:styleID=&quot;sCol5&quot; /&gt;&lt;t:Column t:key=&quot;result&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;6&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.localNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;7&quot; /&gt;&lt;t:Column t:key=&quot;EaiCenter.readTime&quot; t:width=&quot;150&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;8&quot; t:styleID=&quot;sCol8&quot; /&gt;&lt;t:Column t:key=&quot;group&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;parent&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;id&lt;/t:Cell&gt;&lt;t:Cell&gt;數據類型&lt;/t:Cell&gt;&lt;t:Cell&gt;業務數據ID&lt;/t:Cell&gt;&lt;t:Cell&gt;業務數據編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;業務數據名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;更新時間&lt;/t:Cell&gt;&lt;t:Cell&gt;同步結果&lt;/t:Cell&gt;&lt;t:Cell&gt;財務單據編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;讀取時間&lt;/t:Cell&gt;&lt;t:Cell&gt;分組&lt;/t:Cell&gt;&lt;t:Cell&gt;父級&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="多分录基础单据查询界面" />
+            <lang locale="zh_HK" value="多分錄基礎單據查詢介面" />
             <lang locale="zh_TW" value="多分錄基礎單據查詢介面" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].extendedProperty.bimTemplateType">
@@ -782,17 +883,20 @@ com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().cr
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].statuses.status[VIEW].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="浏览" />
+            <lang locale="zh_HK" value="瀏覽" />
             <lang locale="zh_TW" value="瀏覽" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].statuses.status[VIEW].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="浏览" />
+            <lang locale="zh_HK" value="瀏覽" />
             <lang locale="zh_TW" value="瀏覽" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogListUI].title">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="调用凭证接口日志" />
-            <lang locale="zh_TW" value="系統集成平臺" />
+            <lang locale="zh_HK" value="調用憑證介面日誌" />
+            <lang locale="zh_TW" value="調用憑證介面日誌" />
         </rs>
     </resource>
 </uiObject>

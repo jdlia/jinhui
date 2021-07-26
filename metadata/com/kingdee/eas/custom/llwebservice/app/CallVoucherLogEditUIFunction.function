@@ -79,26 +79,66 @@
                 <key name="name" value="CallVoucherLog" />
             </entityObjectRef>
         </operation>
+        <operation>
+            <name>audit</name>
+            <alias>functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[audit].alias</alias>
+            <description>functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[audit].description</description>
+            <reverseOperation />
+            <eventMethod>5e196781-cc0f-4383-bc90-a89e4e244066</eventMethod>
+            <event>auditEvent</event>
+            <userDefined>true</userDefined>
+            <uiActionRef>
+                <id>8c9dde4b-9133-4184-9c4b-a62dadffef6fuiaf</id>
+                <uiStatus>EDIT</uiStatus>
+                <webUIStatus />
+                <userDefined>true</userDefined>
+                <uiObjectRef>
+                    <key name="package" value="com.kingdee.eas.custom.llwebservice.client" />
+                    <key name="name" value="CallVoucherLogEditUI" />
+                </uiObjectRef>
+                <actionRefName>ActionAudit</actionRefName>
+                <webActionRefName />
+                <parameters>
+                    <parameter>
+                        <name>billID</name>
+                        <alias>functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[audit].uiActionRef.parameters.parameter[billID].alias</alias>
+                        <description>functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[audit].uiActionRef.parameters.parameter[billID].description</description>
+                        <direction>in</direction>
+                        <dataType>BOSUuid</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </parameters>
+            </uiActionRef>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.custom.llwebservice.app" />
+                <key name="name" value="CallVoucherLog" />
+            </entityObjectRef>
+        </operation>
     </operations>
     <resource>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].alias">
             <lang locale="en_US" value="多分录基础单据编辑界面业务功能" />
             <lang locale="zh_CN" value="调用凭证接口日志编辑功能" />
-            <lang locale="zh_TW" value="系統集成平臺編輯功能" />
+            <lang locale="zh_HK" value="調用憑證介面日誌編輯功能" />
+            <lang locale="zh_TW" value="調用憑證介面日誌編輯功能" />
         </rs>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].description">
             <lang locale="en_US" value="多分录基础单据编辑界面业务功能" />
             <lang locale="zh_CN" value="多分录基础单据编辑界面业务功能" />
+            <lang locale="zh_HK" value="多分錄基礎單據編輯介面業務功能" />
             <lang locale="zh_TW" value="多分錄基礎單據編輯介面業務功能" />
         </rs>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[ActionSubmit].alias">
             <lang locale="en_US" value="提交" />
             <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
             <lang locale="zh_TW" value="提交" />
         </rs>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[ActionSubmit].description">
             <lang locale="en_US" value="提交" />
             <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
             <lang locale="zh_TW" value="提交" />
         </rs>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[ActionSubmit].extendedProperty.userDefined">
@@ -109,21 +149,54 @@
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].alias">
             <lang locale="en_US" value="单据内码" />
             <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
             <lang locale="zh_TW" value="單據內碼" />
         </rs>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].description">
             <lang locale="en_US" value="单据内码" />
             <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[audit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核" />
+            <lang locale="zh_HK" value="審核" />
+            <lang locale="zh_TW" value="審核" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[audit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[audit].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[audit].uiActionRef.parameters.parameter[billID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[audit].uiActionRef.parameters.parameter[billID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
             <lang locale="zh_TW" value="單據內碼" />
         </rs>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[createTo].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="下推" />
+            <lang locale="zh_HK" value="下推" />
             <lang locale="zh_TW" value="下推" />
         </rs>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[createTo].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[createTo].extendedProperty.userDefined">
@@ -134,11 +207,13 @@
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[createTo].uiActionRef.parameters.parameter[billID].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
             <lang locale="zh_TW" value="單據內碼" />
         </rs>
         <rs key="functionObject[com.kingdee.eas.custom.llwebservice.app.CallVoucherLogEditUIFunction].operations.operation[createTo].uiActionRef.parameters.parameter[billID].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
             <lang locale="zh_TW" value="單據內碼" />
         </rs>
     </resource>

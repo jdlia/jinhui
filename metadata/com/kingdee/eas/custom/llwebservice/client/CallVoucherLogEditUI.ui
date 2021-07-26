@@ -23,7 +23,7 @@
         <component>
             <name>CoreUI</name>
             <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[CoreUI].alias</alias>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
             <isContainer>true</isContainer>
             <constraints>0,0,965,625</constraints>
@@ -1186,6 +1186,11 @@
             <tabIndex>14</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
             <properties>
                 <property>
                     <name>visible</name>
@@ -1243,6 +1248,11 @@
             <tabIndex>15</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
             <properties>
                 <property>
                     <name>visible</name>
@@ -1300,6 +1310,11 @@
             <tabIndex>16</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
             <properties>
                 <property>
                     <name>visible</name>
@@ -1357,6 +1372,11 @@
             <tabIndex>17</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
             <properties>
                 <property>
                     <name>visible</name>
@@ -1434,6 +1454,43 @@
                 <key name="name" value="CoreUI_toolbar" />
             </parent>
         </component>
+        <component>
+            <name>btnAudit</name>
+            <alias>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[btnAudit].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>24</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[btnAudit].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[btnAudit].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>icon</name>
+                    <type>javax.swing.Icon</type>
+                    <value>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[btnAudit].properties.property[icon].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI_toolbar" />
+            </parent>
+        </component>
     </components>
     <dataObjects>
         <dataObject>
@@ -1441,7 +1498,7 @@
             <type>com.kingdee.eas.custom.llwebservice.app.CallVoucherLog</type>
             <objectType>enty</objectType>
             <herited>true</herited>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
         </dataObject>
     </dataObjects>
     <actions>
@@ -1467,7 +1524,7 @@
 &lt;ExtendProperty&gt;&lt;item key="userDefined" value="false" /&gt;&lt;item key="isObjectUpdateLock" value="false" /&gt;&lt;/ExtendProperty&gt;</actionExtendProperty>
             <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.UserMonitorService" /&gt;&lt;/root&gt;</services>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <userDefinedLogic />
             <oprtIntent />
             <nextUI />
@@ -1497,7 +1554,7 @@
             <actionExtendProperty />
             <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.NetFunctionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.UserMonitorService" /&gt;&lt;/root&gt;</services>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <userDefinedLogic />
             <oprtIntent />
             <nextUI />
@@ -1535,7 +1592,7 @@
             <actionExtendProperty />
             <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.NetFunctionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.UserMonitorService" /&gt;&lt;/root&gt;</services>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <userDefinedLogic />
             <oprtIntent />
             <nextUI />
@@ -1573,7 +1630,7 @@
             <actionExtendProperty />
             <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.NetFunctionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.UserMonitorService" /&gt;&lt;/root&gt;</services>
-            <userDefined>true</userDefined>
+            <userDefined>false</userDefined>
             <userDefinedLogic />
             <oprtIntent />
             <nextUI />
@@ -1613,121 +1670,199 @@
             <isEntryAction>false</isEntryAction>
             <batchMethodName />
         </action>
+        <action>
+            <instanceName>actionAudit</instanceName>
+            <className>ActionAudit</className>
+            <name>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionAudit].name</name>
+            <enabled>true</enabled>
+            <actionPerformed>com.kingdee.eas.custom.llwebservice.CallVoucherLogFactory.getRemoteInstance().audit(editData);</actionPerformed>
+            <beforeActionPerformed />
+            <afterActionPerformed />
+            <finallyActionPerformed />
+            <actionCommandKey />
+            <acceleratorKey />
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionAudit].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionAudit].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionAudit].longDescription</longDescription>
+            <isBindWorkFlow>true</isBindWorkFlow>
+            <herited>false</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;ExtendProperty&gt;&lt;item key="canForewarn" value="true" /&gt;&lt;item key="userDefined" value="true" /&gt;&lt;item key="isObjectUpdateLock" value="false" /&gt;&lt;/ExtendProperty&gt;</actionExtendProperty>
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.ForewarnService" /&gt;&lt;service class="com.kingdee.eas.framework.client.service.WorkFlowService" /&gt;&lt;/root&gt;</services>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+            <isBatchAction>false</isBatchAction>
+            <isEntryAction>false</isEntryAction>
+            <batchMethodName />
+        </action>
     </actions>
     <resource>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionAudit].longDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionAudit].name">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核" />
+            <lang locale="zh_HK" value="審核" />
+            <lang locale="zh_TW" value="審核" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionAudit].shortDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionAudit].smallIcon">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionCreateTo].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionCreateTo].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="下推" />
+            <lang locale="zh_HK" value="下推" />
             <lang locale="zh_TW" value="下推" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionCreateTo].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionCreateTo].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionOnLoad].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="界面显示" />
+            <lang locale="zh_HK" value="介面顯示" />
             <lang locale="zh_TW" value="介面顯示" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionOnLoad].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="界面显示" />
+            <lang locale="zh_HK" value="介面顯示" />
             <lang locale="zh_TW" value="介面顯示" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionOnLoad].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionOnLoad].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionPrintPreview].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="打印预览" />
+            <lang locale="zh_HK" value="列印預覽" />
             <lang locale="zh_TW" value="列印預覽" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionPrintPreview].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="打印预览" />
+            <lang locale="zh_HK" value="列印預覽" />
             <lang locale="zh_TW" value="列印預覽" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionPrintPreview].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="打印预览" />
+            <lang locale="zh_HK" value="列印預覽" />
             <lang locale="zh_TW" value="列印預覽" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionPrintPreview].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionPrint].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="打印" />
+            <lang locale="zh_HK" value="列印" />
             <lang locale="zh_TW" value="列印" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionPrint].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="打印" />
+            <lang locale="zh_HK" value="列印" />
             <lang locale="zh_TW" value="列印" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionPrint].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="打印" />
+            <lang locale="zh_HK" value="列印" />
             <lang locale="zh_TW" value="列印" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionPrint].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionSubmit].longDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
             <lang locale="zh_TW" value="提交" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionSubmit].name">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
             <lang locale="zh_TW" value="提交" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionSubmit].shortDescription">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
             <lang locale="zh_TW" value="提交" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].actions.action[actionSubmit].smallIcon">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="调用凭证接口日志" />
-            <lang locale="zh_TW" value="系統集成平臺" />
+            <lang locale="zh_HK" value="調用憑證介面日誌" />
+            <lang locale="zh_TW" value="調用憑證介面日誌" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[CoreUI].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[actionCreatTo].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[actionCreatTo].extendedProperty.userDefined">
@@ -1738,351 +1873,450 @@
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[actionCreatTo].properties.property[action].value">
             <lang locale="en_US" value="actionCreateTo" />
             <lang locale="zh_CN" value="actionCreateTo" />
+            <lang locale="zh_HK" value="actionCreateTo" />
             <lang locale="zh_TW" value="actionCreateTo" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[actionCreatTo].properties.property[text].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="下推" />
+            <lang locale="zh_HK" value="下推" />
             <lang locale="zh_TW" value="下推" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[btnAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[btnAudit].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[btnAudit].properties.property[action].value">
+            <lang locale="en_US" value="actionAudit" />
+            <lang locale="zh_CN" value="actionAudit" />
+            <lang locale="zh_HK" value="actionAudit" />
+            <lang locale="zh_TW" value="actionAudit" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[btnAudit].properties.property[icon].value">
+            <lang locale="en_US" value="imgTbtn_auditing" />
+            <lang locale="zh_CN" value="imgTbtn_auditing" />
+            <lang locale="zh_HK" value="imgTbtn_auditing" />
+            <lang locale="zh_TW" value="imgTbtn_auditing" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[btnAudit].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核" />
+            <lang locale="zh_HK" value="審核" />
+            <lang locale="zh_TW" value="審核" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizId].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizId].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizId].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据ID" />
+            <lang locale="zh_HK" value="業務數據ID" />
             <lang locale="zh_TW" value="業務數據ID" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizId].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizId].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizName].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizName].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizName].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
             <lang locale="zh_TW" value="名稱" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizName].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizName].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizNumber].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizNumber].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizNumber].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据编码" />
+            <lang locale="zh_HK" value="業務數據編碼" />
             <lang locale="zh_TW" value="業務數據編碼" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizNumber].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contbizNumber].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contdataType].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contdataType].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contdataType].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_HK" value="數據類型" />
             <lang locale="zh_TW" value="數據類型" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contdataType].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contdataType].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contgroup].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contgroup].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contgroup].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="分组" />
+            <lang locale="zh_HK" value="分組" />
             <lang locale="zh_TW" value="分組" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contgroup].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contgroup].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlastUpdateTime].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlastUpdateTime].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlastUpdateTime].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="更新时间" />
+            <lang locale="zh_HK" value="更新時間" />
             <lang locale="zh_TW" value="更新時間" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlastUpdateTime].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlastUpdateTime].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalId].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalId].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalId].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="财务单据ID" />
+            <lang locale="zh_HK" value="財務單據ID" />
             <lang locale="zh_TW" value="財務單據ID" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalId].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalId].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalNumber].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalNumber].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalNumber].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="财务单据编码" />
+            <lang locale="zh_HK" value="財務單據編碼" />
             <lang locale="zh_TW" value="財務單據編碼" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalNumber].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contlocalNumber].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contparent].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contparent].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contparent].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="父级" />
+            <lang locale="zh_HK" value="父級" />
             <lang locale="zh_TW" value="父級" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contparent].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contparent].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contreadTime].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contreadTime].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contreadTime].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="读取时间" />
+            <lang locale="zh_HK" value="讀取時間" />
             <lang locale="zh_TW" value="讀取時間" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contreadTime].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contreadTime].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contresult].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contresult].properties.property[boundLabelLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contresult].properties.property[boundLabelText].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="同步结果" />
+            <lang locale="zh_HK" value="同步結果" />
             <lang locale="zh_TW" value="同步結果" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contresult].properties.property[boundLabelUnderline].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[contresult].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDContainer1].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDContainer1].properties.property[title].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="同步结果" />
+            <lang locale="zh_HK" value="同步結果" />
             <lang locale="zh_TW" value="同步結果" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDContainer2].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDContainer2].properties.property[title].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据" />
+            <lang locale="zh_HK" value="業務數據" />
             <lang locale="zh_TW" value="業務數據" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDJson].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据" />
+            <lang locale="zh_HK" value="業務數據" />
             <lang locale="zh_TW" value="業務數據" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDJson].properties.property[rows].value">
             <lang locale="en_US" value="20" />
             <lang locale="zh_CN" value="20" />
+            <lang locale="zh_HK" value="20" />
             <lang locale="zh_TW" value="20" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDResultDesc].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="结果描述" />
+            <lang locale="zh_HK" value="結果描述" />
             <lang locale="zh_TW" value="結果描述" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDScrollPane1].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDScrollPane2].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDSplitPane1].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDSplitPane1].properties.property[autoscrolls].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[kDSplitPane1].properties.property[resizeWeight].value">
             <lang locale="en_US" value="0.7" />
             <lang locale="zh_CN" value="0.7" />
+            <lang locale="zh_HK" value="0.7" />
             <lang locale="zh_TW" value="0.7" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[pklastUpdateTime].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="更新时间" />
+            <lang locale="zh_HK" value="更新時間" />
             <lang locale="zh_TW" value="更新時間" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[pklastUpdateTime].extendedProperty.addedByBIM">
@@ -2093,16 +2327,19 @@
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[pklastUpdateTime].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[pklastUpdateTime].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[pkreadTime].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="读取时间" />
+            <lang locale="zh_HK" value="讀取時間" />
             <lang locale="zh_TW" value="讀取時間" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[pkreadTime].extendedProperty.addedByBIM">
@@ -2113,236 +2350,283 @@
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[pkreadTime].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[pkreadTime].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[result].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="同步结果" />
+            <lang locale="zh_HK" value="同步結果" />
             <lang locale="zh_TW" value="同步結果" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[result].properties.property[items].value">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="[Enum]com.kingdee.eas.eai.EaiResultEnum" />
+            <lang locale="zh_HK" value="[Enum]com.kingdee.eas.eai.EaiResultEnum" />
             <lang locale="zh_TW" value="[Enum]com.kingdee.eas.eai.EaiResultEnum" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[result].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[result].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizId].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据ID" />
+            <lang locale="zh_HK" value="業務數據ID" />
             <lang locale="zh_TW" value="業務數據ID" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizId].properties.property[horizontalAlignment].value">
             <lang locale="en_US" value="2" />
             <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
             <lang locale="zh_TW" value="2" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizId].properties.property[maxLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizId].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizId].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizName].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
             <lang locale="zh_TW" value="名稱" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizName].properties.property[horizontalAlignment].value">
             <lang locale="en_US" value="2" />
             <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
             <lang locale="zh_TW" value="2" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizName].properties.property[maxLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizName].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizName].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizNumber].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="业务数据编码" />
+            <lang locale="zh_HK" value="業務數據編碼" />
             <lang locale="zh_TW" value="業務數據編碼" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizNumber].properties.property[horizontalAlignment].value">
             <lang locale="en_US" value="2" />
             <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
             <lang locale="zh_TW" value="2" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizNumber].properties.property[maxLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizNumber].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtbizNumber].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtdataType].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_HK" value="數據類型" />
             <lang locale="zh_TW" value="數據類型" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtdataType].properties.property[horizontalAlignment].value">
             <lang locale="en_US" value="2" />
             <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
             <lang locale="zh_TW" value="2" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtdataType].properties.property[maxLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtdataType].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtdataType].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtgroup].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="分组" />
+            <lang locale="zh_HK" value="分組" />
             <lang locale="zh_TW" value="分組" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtgroup].properties.property[horizontalAlignment].value">
             <lang locale="en_US" value="2" />
             <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
             <lang locale="zh_TW" value="2" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtgroup].properties.property[maxLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtgroup].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtgroup].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalId].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="财务单据ID" />
+            <lang locale="zh_HK" value="財務單據ID" />
             <lang locale="zh_TW" value="財務單據ID" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalId].properties.property[horizontalAlignment].value">
             <lang locale="en_US" value="2" />
             <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
             <lang locale="zh_TW" value="2" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalId].properties.property[maxLength].value">
             <lang locale="en_US" value="44" />
             <lang locale="zh_CN" value="44" />
+            <lang locale="zh_HK" value="44" />
             <lang locale="zh_TW" value="44" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalId].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalId].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalNumber].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="财务单据编码" />
+            <lang locale="zh_HK" value="財務單據編碼" />
             <lang locale="zh_TW" value="財務單據編碼" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalNumber].properties.property[horizontalAlignment].value">
             <lang locale="en_US" value="2" />
             <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
             <lang locale="zh_TW" value="2" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalNumber].properties.property[maxLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalNumber].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtlocalNumber].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtparent].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="父级" />
+            <lang locale="zh_HK" value="父級" />
             <lang locale="zh_TW" value="父級" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtparent].properties.property[horizontalAlignment].value">
             <lang locale="en_US" value="2" />
             <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
             <lang locale="zh_TW" value="2" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtparent].properties.property[maxLength].value">
             <lang locale="en_US" value="100" />
             <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
             <lang locale="zh_TW" value="100" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtparent].properties.property[required].value">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].components.component[txtparent].properties.property[visible].value">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="多分录基础单据模板编辑界面" />
+            <lang locale="zh_HK" value="多分錄基礎單據範本編輯介面" />
             <lang locale="zh_TW" value="多分錄基礎單據範本編輯介面" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].extendedProperty.bimTemplateType">
@@ -2358,7 +2642,8 @@
         <rs key="uiObject[com.kingdee.eas.custom.llwebservice.client.CallVoucherLogEditUI].title">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="调用凭证接口日志" />
-            <lang locale="zh_TW" value="系統集成平臺" />
+            <lang locale="zh_HK" value="調用憑證介面日誌" />
+            <lang locale="zh_TW" value="調用憑證介面日誌" />
         </rs>
     </resource>
 </uiObject>
